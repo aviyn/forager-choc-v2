@@ -1362,6 +1362,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27)
+						(xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27)
+						(xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 81.28 67.31)
@@ -2907,6 +3073,48 @@
 		)
 		(uuid "480c21d4-9437-479b-93cf-252345e9834a")
 	)
+	(wire
+		(pts
+			(xy 96.52 54.61)
+			(xy 93.98 54.61)
+		)
+		(uuid "dc17e283-9d44-4291-80d3-8e0d75938e9a")
+	)
+	(wire
+		(pts
+			(xy 106.68 54.61)
+			(xy 109.22 54.61)
+		)
+		(uuid "18086a0d-57d3-4382-a111-4361d814774c")
+	)
+	(wire
+		(pts
+			(xy 46.99 16.51)
+			(xy 46.99 11.43)
+		)
+		(uuid "357be730-eda1-43eb-9372-9c89f5c0878d")
+	)
+	(wire
+		(pts
+			(xy 232.41 54.61)
+			(xy 229.87 54.61)
+		)
+		(uuid "64bbcd7e-a26a-414a-a25a-8bfe4479f4f9")
+	)
+	(wire
+		(pts
+			(xy 242.57 54.61)
+			(xy 245.11 54.61)
+		)
+		(uuid "a75c4ba6-59a6-409c-aeb9-dbdc279d47ff")
+	)
+	(wire
+		(pts
+			(xy 182.88 16.51)
+			(xy 182.88 11.43)
+		)
+		(uuid "7686365e-7bd7-42b3-801a-88cfa1006a62")
+	)
 	(label "LROW0"
 		(at 20.32 36.83 0)
 		(effects
@@ -3609,6 +3817,82 @@
 		)
 		(uuid "8cfa1fee-0a85-4c92-9b23-3e0236bba984")
 	)
+	(global_label "LRST"
+		(shape input)
+		(at 93.98 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ca97137-09d3-4d1c-929d-bb57b272c556")
+	)
+	(global_label "LGND"
+		(shape input)
+		(at 109.22 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fdf550e-eb66-4194-bead-522e8df988a7")
+	)
+	(global_label "LRST"
+		(shape input)
+		(at 46.99 11.43 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e00a50f-bf6c-4790-a49b-2332f8f46147")
+	)
+	(global_label "RRST"
+		(shape input)
+		(at 229.87 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "542f9a9c-38d9-4e24-9eba-a70bffc03c1c")
+	)
+	(global_label "RGND"
+		(shape input)
+		(at 245.11 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15f73f6d-8e30-4ecb-bd60-6c9e8154c00b")
+	)
+	(global_label "RRST"
+		(shape input)
+		(at 182.88 11.43 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c4f3a84-187c-42e9-a353-1951c94582b3")
+	)
+  (text "OPTIONAL reset button - XIAO onboard reset still works"
+    (at 88.9 62.23 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "70345c88-363d-4492-9049-b869b8c0e23f")
+  )
+  (text "OPTIONAL reset button - XIAO onboard reset still works"
+    (at 224.79 62.23 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid "f4ee03e5-addf-4865-90af-915785ed02ad")
+  )
 	(symbol
 		(lib_id "Device:D")
 		(at 34.29 116.84 90)
@@ -10732,6 +11016,128 @@
 			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RSW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 101.6 54.61 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7e800a4-d3a4-4e4a-a421-54cad3370445")
+		(property "Reference" "LRST1"
+			(at 102.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EVQ-PUC02K (optional)"
+			(at 101.6 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "forager:SW_Panasonic_EVQPUC02K"
+			(at 101.6 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 101.6 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "forager-pcb"
+				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
+					(reference "LRST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 237.49 54.61 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40316967-489a-4ec9-8523-8f908bdbd091")
+		(property "Reference" "RRST1"
+			(at 238.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EVQ-PUC02K (optional)"
+			(at 237.49 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "forager:SW_Panasonic_EVQPUC02K"
+			(at 237.49 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 237.49 54.61 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "forager-pcb"
+				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
+					(reference "RRST1")
 					(unit 1)
 				)
 			)
