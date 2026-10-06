@@ -3379,7 +3379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 31.75 90.17 0)
 			(effects
 				(font
@@ -3446,7 +3446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 71.12 110.49 0)
 			(effects
 				(font
@@ -3690,7 +3690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 58.42 90.17 0)
 			(effects
 				(font
@@ -4000,7 +4000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 165.1 90.17 0)
 			(effects
 				(font
@@ -4068,7 +4068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 190.5 110.49 0)
 			(effects
 				(font
@@ -4136,7 +4136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 165.1 69.85 0)
 			(effects
 				(font
@@ -4380,7 +4380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 58.42 110.49 0)
 			(effects
 				(font
@@ -4713,7 +4713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 177.8 69.85 0)
 			(effects
 				(font
@@ -4781,7 +4781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 161.29 132.08 0)
 			(effects
 				(font
@@ -4849,7 +4849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 190.5 69.85 0)
 			(effects
 				(font
@@ -4916,7 +4916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 71.12 90.17 0)
 			(effects
 				(font
@@ -5072,7 +5072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 58.42 69.85 0)
 			(effects
 				(font
@@ -5316,7 +5316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 45.72 69.85 0)
 			(effects
 				(font
@@ -5471,7 +5471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 87.63 132.08 0)
 			(effects
 				(font
@@ -5667,7 +5667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -5735,7 +5735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 177.8 90.17 0)
 			(effects
 				(font
@@ -5803,7 +5803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 190.5 90.17 0)
 			(effects
 				(font
@@ -5960,7 +5960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 203.2 90.17 0)
 			(effects
 				(font
@@ -6093,7 +6093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 73.66 132.08 0)
 			(effects
 				(font
@@ -6160,7 +6160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 31.75 110.49 0)
 			(effects
 				(font
@@ -6315,7 +6315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 83.82 69.85 0)
 			(effects
 				(font
@@ -6869,7 +6869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 165.1 110.49 0)
 			(effects
 				(font
@@ -6937,7 +6937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 217.17 110.49 0)
 			(effects
 				(font
@@ -7005,7 +7005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 203.2 110.49 0)
 			(effects
 				(font
@@ -7535,7 +7535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 177.8 110.49 0)
 			(effects
 				(font
@@ -7603,7 +7603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 217.17 90.17 0)
 			(effects
 				(font
@@ -7848,7 +7848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 83.82 90.17 0)
 			(effects
 				(font
@@ -7916,7 +7916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 203.2 69.85 0)
 			(effects
 				(font
@@ -7984,7 +7984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 175.26 132.08 0)
 			(effects
 				(font
@@ -8140,7 +8140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 83.82 110.49 0)
 			(effects
 				(font
@@ -8538,7 +8538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 31.75 69.85 0)
 			(effects
 				(font
@@ -8960,7 +8960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 45.72 110.49 0)
 			(effects
 				(font
@@ -9028,7 +9028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 217.17 69.85 0)
 			(effects
 				(font
@@ -9095,7 +9095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom:SW_choc_v1_HS_MBK"
+		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 45.72 90.17 0)
 			(effects
 				(font
