@@ -70,9 +70,16 @@
   (fp_arc (start 7.246 5.35) (mid 7.011685 5.915685) (end 6.446 6.15) (stroke (width 0.05) (type solid)) (layer "F.Fab"))
   (fp_text reference "REF**" (at 2.5000 -3.5250 0) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
   (fp_text value "SW_choc_v2_HS_CPG135001S30_1u_nopost" (at 2.5000 8.6000 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
-  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+  (model "${KIPRJMOD}/lib/3dmodels/HS_CPG135001S30_Choc.step"
     (offset (xyz -5 -3.75 1.2))
     (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 180))
-  )
+    (rotate (xyz 90 0 180)))
+  (model "${KIPRJMOD}/lib/3dmodels/SW_Kailh_Choc_V1.wrl"
+    (offset (xyz 0 0 -1.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 0)))
+  (model "${KIPRJMOD}/lib/3dmodels/keycap_18x18_MX.wrl"
+    (offset (xyz 0 0 -7.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 0)))
 )
