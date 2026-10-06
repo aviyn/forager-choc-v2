@@ -1,18 +1,24 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "25b48b1d-6487-48b5-9c33-d941f15e9f3f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,6 +27,8 @@
 			)
 			(property "Value" "Conn_01x02_Pin"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -29,33 +37,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -64,33 +80,47 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -105,26 +135,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -164,16 +184,25 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -182,6 +211,8 @@
 			)
 			(property "Value" "TestPoint"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -190,47 +221,57 @@
 			)
 			(property "Footprint" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "test point"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TestPoint_0_1"
@@ -266,16 +307,25 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -284,6 +334,8 @@
 			)
 			(property "Value" "D"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -292,65 +344,79 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Diode"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Device" "D"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "diode"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "D_0_1"
@@ -368,10 +434,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -380,10 +446,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -429,13 +495,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_marbastlib-promicroish:Seeeduino_Xiao_nRF52840"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -10.16 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -444,6 +515,8 @@
 			)
 			(property "Value" "Seeeduino Xiao nRF52840"
 				(at -10.16 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -452,29 +525,35 @@
 			)
 			(property "Footprint" "PCM_marbastlib-xp-promicroish:Xiao_nRF52840_ACH"
 				(at 0 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at -12.7 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Symbol for a Seeeduino Xiao nRF52840"
 				(at 0.254 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Seeeduino_Xiao_nRF52840_1_0"
@@ -489,6 +568,150 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 11.43 0)
+					(length 2.54)
+					(name "P0.03/1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 8.89 0)
+					(length 2.54)
+					(name "P0.28/2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 6.35 0)
+					(length 2.54)
+					(name "P0.29/3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 3.81 0)
+					(length 2.54)
+					(name "P0.04/4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 1.27 0)
+					(length 2.54)
+					(name "P0.05/5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -16.51 -1.27 0)
+					(length 2.54)
+					(name "P1.11/6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 16.51 13.97 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 16.51 11.43 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -677,24 +900,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -16.51 11.43 0)
-					(length 2.54)
-					(name "P0.03/1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 0 19.05 270)
 					(length 2.54)
 					(name "CLK"
@@ -748,132 +953,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -16.51 8.89 0)
-					(length 2.54)
-					(name "P0.28/2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 6.35 0)
-					(length 2.54)
-					(name "P0.29/3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 3.81 0)
-					(length 2.54)
-					(name "P0.04/4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 1.27 0)
-					(length 2.54)
-					(name "P0.05/5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -1.27 0)
-					(length 2.54)
-					(name "P1.11/6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 16.51 13.97 180)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 16.51 11.43 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "Seeeduino_Xiao_nRF52840_1_1"
 				(rectangle
@@ -888,16 +967,25 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push_45deg"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
 				(at 3.048 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -907,6 +995,8 @@
 			)
 			(property "Value" "SW_Push_45deg"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -915,41 +1005,61 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SW_Push_45deg_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -1.1684 1.1684)
 					(radius 0.508)
@@ -985,10 +1095,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -1001,17 +1110,6 @@
 					(pts
 						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.143 -1.1938)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -1057,6 +1155,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -2475,7 +2574,6 @@
 	)
 	(label "LROW0"
 		(at 20.32 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2486,7 +2584,6 @@
 	)
 	(label "RCOL2"
 		(at 193.04 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2497,7 +2594,6 @@
 	)
 	(label "LCOL4"
 		(at 81.28 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2508,7 +2604,6 @@
 	)
 	(label "RROW1"
 		(at 228.6 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2519,7 +2614,6 @@
 	)
 	(label "RCOL4"
 		(at 205.74 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2530,7 +2624,6 @@
 	)
 	(label "LROW3"
 		(at 69.85 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2541,7 +2634,6 @@
 	)
 	(label "RROW0"
 		(at 228.6 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2552,7 +2644,6 @@
 	)
 	(label "RCOL3"
 		(at 205.74 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2563,7 +2654,6 @@
 	)
 	(label "RCOL0"
 		(at 219.71 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2574,7 +2664,6 @@
 	)
 	(label "RROW2"
 		(at 156.21 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2585,7 +2674,6 @@
 	)
 	(label "LROW2"
 		(at 20.32 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2596,7 +2684,6 @@
 	)
 	(label "LROW1"
 		(at 69.85 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2607,7 +2694,6 @@
 	)
 	(label "LCOL0"
 		(at 20.32 21.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2618,7 +2704,6 @@
 	)
 	(label "RCOL1"
 		(at 205.74 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2629,7 +2714,6 @@
 	)
 	(label "RROW3"
 		(at 228.6 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2640,7 +2724,6 @@
 	)
 	(label "LCOL2"
 		(at 55.88 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2651,7 +2734,6 @@
 	)
 	(label "RCOL0"
 		(at 156.21 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2662,7 +2744,6 @@
 	)
 	(label "LROW3"
 		(at 20.32 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2673,7 +2754,6 @@
 	)
 	(label "RROW3"
 		(at 156.21 21.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2684,7 +2764,6 @@
 	)
 	(label "RCOL1"
 		(at 156.21 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2695,7 +2774,6 @@
 	)
 	(label "RCOL2"
 		(at 156.21 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2706,7 +2784,6 @@
 	)
 	(label "LCOL1"
 		(at 20.32 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2717,7 +2794,6 @@
 	)
 	(label "RROW1"
 		(at 205.74 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2728,7 +2804,6 @@
 	)
 	(label "RROW0"
 		(at 205.74 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2739,7 +2814,6 @@
 	)
 	(label "LROW1"
 		(at 20.32 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2750,7 +2824,6 @@
 	)
 	(label "LROW2"
 		(at 69.85 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2761,7 +2834,6 @@
 	)
 	(label "LCOL4"
 		(at 20.32 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2772,7 +2844,6 @@
 	)
 	(label "LCOL2"
 		(at 20.32 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2783,7 +2854,6 @@
 	)
 	(label "RROW2"
 		(at 228.6 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2794,7 +2864,6 @@
 	)
 	(label "LCOL3"
 		(at 68.58 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2805,7 +2874,6 @@
 	)
 	(label "RCOL4"
 		(at 167.64 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,7 +2884,6 @@
 	)
 	(label "LCOL0"
 		(at 29.21 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2827,7 +2894,6 @@
 	)
 	(label "LROW0"
 		(at 20.32 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2838,7 +2904,6 @@
 	)
 	(label "LCOL1"
 		(at 43.18 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2849,7 +2914,6 @@
 	)
 	(label "RCOL3"
 		(at 180.34 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2860,7 +2924,6 @@
 	)
 	(label "LCOL3"
 		(at 20.32 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2882,12 +2945,14 @@
 		(uuid "358cccce-ac11-412f-a755-a5b99850b601")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 14.9762 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2904,12 +2969,14 @@
 		(uuid "3be70095-5d63-4ad4-816a-60f3a9d2ae6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.8505 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2926,12 +2993,14 @@
 		(uuid "506a11af-cf3a-4b2b-b421-472e4930b399")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.1462 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2948,12 +3017,14 @@
 		(uuid "5b9fc7ba-ab7c-4a96-a6c3-b83cbc74b8b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.2938 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -2970,12 +3041,14 @@
 		(uuid "6b586f45-95ff-4e69-b777-5b87eadc50e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.4038 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -2992,12 +3065,14 @@
 		(uuid "7109bbf3-e498-4bc3-b821-5f037e9a4468")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.6905 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3014,12 +3089,14 @@
 		(uuid "7da50854-1701-4993-b387-b1ade3520906")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 70.1138 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3036,12 +3113,14 @@
 		(uuid "85de0fa6-0c64-4f4a-b382-8e375506ba67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.5205 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3058,12 +3137,14 @@
 		(uuid "a3ff5ec6-03c1-4fb7-8cdc-0279bda658c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 206.2457 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3080,12 +3161,14 @@
 		(uuid "a6e9dc61-9e01-4bc9-9cde-3a8cfaf3616e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 150.8662 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3102,12 +3185,14 @@
 		(uuid "a88a4ac2-b3bb-4c83-b3fa-214b2255d680")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.4105 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3124,12 +3209,14 @@
 		(uuid "e95b8571-3b97-4d0d-a666-3b303f4e6424")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.3062 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3146,12 +3233,14 @@
 		(uuid "f531ac91-99fa-4122-8d27-9466b48e689a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 103.8595 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3168,12 +3257,14 @@
 		(uuid "fc16cd96-a963-464c-9cd7-89d61092a5aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 239.7495 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3181,14 +3272,18 @@
 		(lib_id "Device:D")
 		(at 34.29 116.84 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00e3d12f-d86f-4b16-9d92-51a22670d1f2")
 		(property "Reference" "LD11"
 			(at 36.83 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,6 +3293,8 @@
 		)
 		(property "Value" "D"
 			(at 36.83 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,47 +3304,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 34.29 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 34.29 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 34.29 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 34.29 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 34.29 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3257,7 +3364,7 @@
 			(uuid "8b1c554c-1c9b-48f1-96ec-03837e0ab714")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD11")
 					(unit 1)
@@ -3270,14 +3377,18 @@
 		(at 187.96 96.52 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "022f2f02-4882-4a1f-973e-c8eb3410721c")
 		(property "Reference" "RD8"
 			(at 185.42 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,6 +3398,8 @@
 		)
 		(property "Value" "D"
 			(at 185.42 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,47 +3409,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3346,7 +3469,7 @@
 			(uuid "1eabe621-7e24-45d3-afaf-b36dfc7d7838")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD8")
 					(unit 1)
@@ -3358,13 +3481,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 31.75 90.17 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "02834f9c-9447-4d4e-93bc-4b71f400c68c")
 		(property "Reference" "LCH6"
 			(at 35.814 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,37 +3500,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 35.814 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 31.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 31.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3413,7 +3548,7 @@
 			(uuid "a189466f-7caa-4520-85b7-697801719e7a")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH6")
 					(unit 1)
@@ -3425,13 +3560,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 71.12 110.49 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0438c1d8-ea9d-4f75-b0d8-789e50db7140")
 		(property "Reference" "LCH14"
 			(at 75.184 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,37 +3579,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 75.184 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 71.12 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 71.12 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 71.12 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3480,7 +3627,7 @@
 			(uuid "00bcdfe2-1ce6-4f96-934b-525d1ea06459")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH14")
 					(unit 1)
@@ -3492,14 +3639,18 @@
 		(lib_id "Device:D")
 		(at 73.66 76.2 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eac1c7f-37a9-4777-947e-808440a9a94f")
 		(property "Reference" "LD4"
 			(at 76.2 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,6 +3660,8 @@
 		)
 		(property "Value" "D"
 			(at 76.2 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,47 +3671,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 73.66 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 73.66 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 73.66 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 73.66 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3568,7 +3731,7 @@
 			(uuid "2768c19c-be69-453d-a554-14d0825aec99")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD4")
 					(unit 1)
@@ -3581,14 +3744,18 @@
 		(at 172.72 138.43 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16b8a081-65bc-4a76-90e3-3609670553a9")
 		(property "Reference" "RD17"
 			(at 170.18 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,6 +3765,8 @@
 		)
 		(property "Value" "D"
 			(at 170.18 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,47 +3776,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 172.72 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 172.72 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 172.72 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 172.72 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 172.72 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3657,7 +3836,7 @@
 			(uuid "c269b181-4532-4987-8a12-b5c5f196f58c")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD17")
 					(unit 1)
@@ -3669,13 +3848,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 58.42 90.17 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "16ee31e2-6389-42c8-a07e-4972c894ea0e")
 		(property "Reference" "LCH8"
 			(at 62.484 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,37 +3867,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 62.484 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 58.42 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 58.42 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3724,7 +3915,7 @@
 			(uuid "3ba2c2a8-3906-4ebe-923d-2e8b00405c0f")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH8")
 					(unit 1)
@@ -3736,14 +3927,18 @@
 		(lib_id "Device:D")
 		(at 73.66 116.84 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17534b41-0feb-4916-88f9-9473184ee4dc")
 		(property "Reference" "LD14"
 			(at 76.2 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,6 +3948,8 @@
 		)
 		(property "Value" "D"
 			(at 76.2 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,47 +3959,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 73.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 73.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 73.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 73.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3812,7 +4019,7 @@
 			(uuid "f3313b9f-cfa0-4db5-9f8d-b1d2c9b4d921")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD14")
 					(unit 1)
@@ -3824,14 +4031,18 @@
 		(lib_id "Device:D")
 		(at 86.36 116.84 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1768bbdf-5d1f-4316-8ea2-430a6ccf8395")
 		(property "Reference" "LD15"
 			(at 88.9 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,6 +4052,8 @@
 		)
 		(property "Value" "D"
 			(at 88.9 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,47 +4063,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 86.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 86.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 86.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 86.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3900,7 +4123,7 @@
 			(uuid "fe85ea80-b244-4b18-a656-0c443cf959be")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD15")
 					(unit 1)
@@ -3912,13 +4135,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 116.84 22.86 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a726835-d12b-4fb5-bd7a-73e4b8766bd5")
 		(property "Reference" "TP1"
 			(at 121.92 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,6 +4155,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 121.92 22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,36 +4166,42 @@
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 116.84 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 116.84 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "fd81a34a-f614-4a3b-af2b-bce361a56ef7")
 		)
 		(instances
-			(project ""
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "TP1")
 					(unit 1)
@@ -3979,13 +4214,17 @@
 		(at 165.1 90.17 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b7ed641-e015-4c5f-baf2-f8f12cae3983")
 		(property "Reference" "RCH6"
 			(at 161.036 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,37 +4233,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 161.036 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 165.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 165.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 165.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4034,7 +4281,7 @@
 			(uuid "24dbee34-97f5-42e1-805c-2e46a94aeb28")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH6")
 					(unit 1)
@@ -4047,13 +4294,17 @@
 		(at 190.5 110.49 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fc49c3e-ab1b-4fe3-98e0-16b8002cf0ad")
 		(property "Reference" "RCH13"
 			(at 186.436 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,37 +4313,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 186.436 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 190.5 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 190.5 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4102,7 +4361,7 @@
 			(uuid "b6dda27f-d55e-4afb-8869-7dba0da83a0f")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH13")
 					(unit 1)
@@ -4115,13 +4374,17 @@
 		(at 165.1 69.85 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "400f20a4-7fac-4e05-b8d1-57f3c28af32f")
 		(property "Reference" "RCH1"
 			(at 161.036 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,37 +4393,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 161.036 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 165.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 165.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 165.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4170,7 +4441,7 @@
 			(uuid "5778c49a-245c-45d1-8939-abb7c2a700c6")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH1")
 					(unit 1)
@@ -4183,14 +4454,18 @@
 		(at 214.63 96.52 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41c2d28c-16ed-45c3-8537-88bf2505e60a")
 		(property "Reference" "RD10"
 			(at 212.09 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,6 +4475,8 @@
 		)
 		(property "Value" "D"
 			(at 212.09 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,47 +4486,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 214.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 214.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 214.63 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4259,7 +4546,7 @@
 			(uuid "07a4e6bc-e885-438e-b321-574c3bc27e6a")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD10")
 					(unit 1)
@@ -4271,14 +4558,18 @@
 		(lib_id "Device:D")
 		(at 60.96 116.84 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43f13eaf-e60e-4fcc-8213-323559010b3b")
 		(property "Reference" "LD13"
 			(at 63.5 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,6 +4579,8 @@
 		)
 		(property "Value" "D"
 			(at 63.5 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,47 +4590,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 60.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 60.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 60.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 60.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 60.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4347,7 +4650,7 @@
 			(uuid "6fd9dfdb-572f-46d7-9d3f-b8cb4ccec382")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD13")
 					(unit 1)
@@ -4359,13 +4662,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 58.42 110.49 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c77f89b-c40e-4028-b7cf-adfcb12e8aa1")
 		(property "Reference" "LCH13"
 			(at 62.484 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,37 +4681,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 62.484 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 58.42 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 58.42 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4414,7 +4729,7 @@
 			(uuid "943840f9-9e74-4132-9c88-876666fea096")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH13")
 					(unit 1)
@@ -4426,14 +4741,18 @@
 		(lib_id "Device:D")
 		(at 34.29 96.52 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5166270f-3f46-4966-a8ea-53c34b1fb891")
 		(property "Reference" "LD6"
 			(at 36.83 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,6 +4762,8 @@
 		)
 		(property "Value" "D"
 			(at 36.83 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,47 +4773,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 34.29 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 34.29 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 34.29 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 34.29 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 34.29 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4502,7 +4833,7 @@
 			(uuid "02f61120-3647-4f06-87c5-412911768482")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD6")
 					(unit 1)
@@ -4515,14 +4846,18 @@
 		(at 187.96 116.84 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52c11970-4ca0-442a-97db-e6225c9a11af")
 		(property "Reference" "RD13"
 			(at 185.42 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4532,6 +4867,8 @@
 		)
 		(property "Value" "D"
 			(at 185.42 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4541,47 +4878,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 187.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 187.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 187.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 187.96 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4591,7 +4938,7 @@
 			(uuid "8121bd55-e930-4cad-bdcf-a8f006e6c900")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD13")
 					(unit 1)
@@ -4603,14 +4950,18 @@
 		(lib_id "Device:D")
 		(at 34.29 76.2 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5451b97b-57bf-49fd-8905-4c757beb2a3e")
 		(property "Reference" "LD1"
 			(at 36.83 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,6 +4971,8 @@
 		)
 		(property "Value" "D"
 			(at 36.83 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,47 +4982,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 34.29 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 34.29 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 34.29 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 34.29 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 34.29 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4679,7 +5042,7 @@
 			(uuid "ce17de49-913b-4c46-b5a6-1fda2ad685d0")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD1")
 					(unit 1)
@@ -4692,13 +5055,17 @@
 		(at 177.8 69.85 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bb49ed7-3896-47ff-8a63-14d6512dd891")
 		(property "Reference" "RCH2"
 			(at 173.736 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,37 +5074,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 173.736 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 177.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 177.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 177.8 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4747,7 +5122,7 @@
 			(uuid "42cea470-af83-409b-9d2c-eb9dfe47bbe9")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH2")
 					(unit 1)
@@ -4760,13 +5135,17 @@
 		(at 161.29 132.08 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cc80b19-4dc4-4777-9768-4bf15dbbc02d")
 		(property "Reference" "RCH16"
 			(at 158.75 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,37 +5154,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 158.75 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 161.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 161.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 161.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4815,7 +5202,7 @@
 			(uuid "f26a51f3-417a-4b0c-beea-28391177d031")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH16")
 					(unit 1)
@@ -4828,13 +5215,17 @@
 		(at 190.5 69.85 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6448bdca-0eb9-4f27-aa34-b021be693b93")
 		(property "Reference" "RCH3"
 			(at 186.436 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,37 +5234,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 186.436 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4883,7 +5282,7 @@
 			(uuid "550e002b-1693-4d2c-98d4-b6ddc4c1f3f6")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH3")
 					(unit 1)
@@ -4895,13 +5294,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 71.12 90.17 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "667f11b5-327c-46b9-8f30-9460d21f7ee5")
 		(property "Reference" "LCH9"
 			(at 75.184 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,37 +5313,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 75.184 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 71.12 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 71.12 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 71.12 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4950,7 +5361,7 @@
 			(uuid "68dbc8b4-0b7a-4948-9069-e884507a5d31")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH9")
 					(unit 1)
@@ -4963,14 +5374,18 @@
 		(at 175.26 76.2 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68803394-95a4-4096-995a-c104ae247a69")
 		(property "Reference" "RD2"
 			(at 172.72 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,6 +5395,8 @@
 		)
 		(property "Value" "D"
 			(at 172.72 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,47 +5406,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 175.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 175.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 175.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 175.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 175.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5039,7 +5466,7 @@
 			(uuid "688eae76-e71d-4e65-bae4-8b1e7b94b25b")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD2")
 					(unit 1)
@@ -5051,13 +5478,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 58.42 69.85 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b0837f3-072c-456a-89e8-d22c0c270b0a")
 		(property "Reference" "LCH3"
 			(at 62.484 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,37 +5497,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 62.484 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5106,7 +5545,7 @@
 			(uuid "886b06c7-2474-46d5-9a7c-0b1edc1ce56a")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH3")
 					(unit 1)
@@ -5119,14 +5558,18 @@
 		(at 214.63 116.84 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b5e1336-e3a7-4fc7-9311-3c760c6baaaa")
 		(property "Reference" "RD15"
 			(at 212.09 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,6 +5579,8 @@
 		)
 		(property "Value" "D"
 			(at 212.09 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,47 +5590,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 214.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 214.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 214.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5195,7 +5650,7 @@
 			(uuid "ecd693f2-8efe-4be2-9060-30941043abd9")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD15")
 					(unit 1)
@@ -5207,14 +5662,18 @@
 		(lib_id "Device:D")
 		(at 48.26 96.52 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e054d2b-ec3b-4a7c-bbe2-3ba784b47f34")
 		(property "Reference" "LD7"
 			(at 50.8 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,6 +5683,8 @@
 		)
 		(property "Value" "D"
 			(at 50.8 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,47 +5694,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 48.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 48.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 48.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 48.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 48.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5283,7 +5754,7 @@
 			(uuid "754575f2-2c80-4600-8ec9-707a40c06dee")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD7")
 					(unit 1)
@@ -5295,13 +5766,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 45.72 69.85 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e853a88-77f4-48e6-ae86-ee894e13519d")
 		(property "Reference" "LCH2"
 			(at 49.784 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,37 +5785,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 49.784 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 45.72 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 45.72 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 45.72 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5350,7 +5833,7 @@
 			(uuid "2616b41e-05ed-44e5-9d13-6ec156316eb1")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH2")
 					(unit 1)
@@ -5362,14 +5845,18 @@
 		(lib_id "Device:D")
 		(at 86.36 96.52 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f949570-b7e7-4273-aa50-8b64524c9e8b")
 		(property "Reference" "LD10"
 			(at 88.9 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,6 +5866,8 @@
 		)
 		(property "Value" "D"
 			(at 88.9 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,47 +5877,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 86.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 86.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 86.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 86.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5438,7 +5937,7 @@
 			(uuid "cd817bf8-937c-4853-b587-9d56ea1aa0f0")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD10")
 					(unit 1)
@@ -5450,13 +5949,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 87.63 132.08 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a937ee8-f44b-4b79-ab4d-50f378e5b745")
 		(property "Reference" "LCH17"
 			(at 90.17 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,37 +5968,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 90.17 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 87.63 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 87.63 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5505,7 +6016,7 @@
 			(uuid "b714de88-16c1-45e4-acf0-f026ab95750b")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH17")
 					(unit 1)
@@ -5517,13 +6028,17 @@
 		(lib_id "PCM_marbastlib-promicroish:Seeeduino_Xiao_nRF52840")
 		(at 180.34 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7af04ac1-2d26-478c-9b61-d1a240da43e8")
 		(property "Reference" "RU1"
 			(at 166.37 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,6 +6048,8 @@
 		)
 		(property "Value" "Xiao nRF52840"
 			(at 166.37 51.562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,29 +6059,35 @@
 		)
 		(property "Footprint" "Custom:xiao-ble-smd-cutout"
 			(at 180.34 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 167.64 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Symbol for a Seeeduino Xiao nRF52840"
 			(at 180.594 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "10"
@@ -5634,7 +6157,7 @@
 			(uuid "b4119b5f-e3db-47d0-aaee-a45a116cc1f3")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RU1")
 					(unit 1)
@@ -5646,13 +6169,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 71.12 69.85 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f0b0e98-ddd3-4ff0-852e-a923acaaaba9")
 		(property "Reference" "LCH4"
 			(at 75.184 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,37 +6188,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 75.184 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 71.12 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 71.12 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 71.12 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5701,7 +6236,7 @@
 			(uuid "6f4411d8-e959-4c4d-baef-66fac4de3cef")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH4")
 					(unit 1)
@@ -5714,13 +6249,17 @@
 		(at 177.8 90.17 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "83e6f9cf-8d18-4286-94f1-6401334a184a")
 		(property "Reference" "RCH7"
 			(at 173.736 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,37 +6268,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 173.736 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 177.8 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 177.8 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 177.8 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5769,7 +6316,7 @@
 			(uuid "02761f81-3e2b-454f-80f8-f671d8112459")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH7")
 					(unit 1)
@@ -5782,13 +6329,17 @@
 		(at 190.5 90.17 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "84fa8bb6-2b1f-499c-b7ee-64ce975c461b")
 		(property "Reference" "RCH8"
 			(at 186.436 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,37 +6348,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 186.436 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 190.5 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 190.5 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5837,7 +6396,7 @@
 			(uuid "d979c832-7df9-4229-bc48-abfea0410397")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH8")
 					(unit 1)
@@ -5850,14 +6409,18 @@
 		(at 162.56 116.84 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8502eead-7c9a-4a6b-9e05-6becae47eaf6")
 		(property "Reference" "RD11"
 			(at 160.02 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,6 +6430,8 @@
 		)
 		(property "Value" "D"
 			(at 160.02 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,47 +6441,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 162.56 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 162.56 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 162.56 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 162.56 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 162.56 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5926,7 +6501,7 @@
 			(uuid "dd28cf8f-7e50-4e33-810d-5189936a0014")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD11")
 					(unit 1)
@@ -5939,13 +6514,17 @@
 		(at 203.2 90.17 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "86e2a282-152d-4720-b46d-511814940990")
 		(property "Reference" "RCH9"
 			(at 199.136 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,37 +6533,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 199.136 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 203.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 203.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 203.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5994,7 +6581,7 @@
 			(uuid "2a0c4d85-1d55-4f38-8ed3-c87d370c0138")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH9")
 					(unit 1)
@@ -6006,13 +6593,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 116.84 25.4 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c4c0317-e0e4-4ebb-a475-38c388084cd6")
 		(property "Reference" "TP2"
 			(at 121.92 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,6 +6613,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 121.92 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,36 +6624,42 @@
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 116.84 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 116.84 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "4ef95700-c542-4369-878b-642ddd70c904")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "TP2")
 					(unit 1)
@@ -6072,13 +6671,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 73.66 132.08 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d287098-20fd-4b98-b5dd-ba254805c44a")
 		(property "Reference" "LCH16"
 			(at 76.2 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,37 +6690,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 76.2 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 73.66 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6127,7 +6738,7 @@
 			(uuid "807ffbce-10f0-4a0a-8969-12fdda3adbe8")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH16")
 					(unit 1)
@@ -6139,13 +6750,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 31.75 110.49 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "92bd2975-317f-4ab0-ba92-065a3037dcd7")
 		(property "Reference" "LCH11"
 			(at 35.814 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6154,37 +6769,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 35.814 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 31.75 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 31.75 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6194,7 +6817,7 @@
 			(uuid "6e7303df-fcad-4de5-8be4-049ba0444afa")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH11")
 					(unit 1)
@@ -6206,14 +6829,18 @@
 		(lib_id "Device:D")
 		(at 76.2 138.43 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9559a061-199c-47e9-88ec-e01209387984")
 		(property "Reference" "LD16"
 			(at 78.74 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,6 +6850,8 @@
 		)
 		(property "Value" "D"
 			(at 78.74 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,47 +6861,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6282,7 +6921,7 @@
 			(uuid "9a844864-c5e6-4d73-aad9-c787b1b2ffd7")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD16")
 					(unit 1)
@@ -6294,13 +6933,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 83.82 69.85 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "998f4256-e543-4aa9-bf7f-fde3087e0f3f")
 		(property "Reference" "LCH5"
 			(at 87.884 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6309,37 +6952,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 87.884 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 83.82 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 83.82 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6349,7 +7000,7 @@
 			(uuid "3f977ce3-b09d-4219-9b17-086d0ff8c8f6")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH5")
 					(unit 1)
@@ -6361,14 +7012,18 @@
 		(lib_id "Device:D")
 		(at 73.66 96.52 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b62630-6ab5-4bfc-a7a0-c4c2f3683c21")
 		(property "Reference" "LD9"
 			(at 76.2 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,6 +7033,8 @@
 		)
 		(property "Value" "D"
 			(at 76.2 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,47 +7044,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 73.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 73.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 73.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 73.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6437,7 +7104,7 @@
 			(uuid "6c67c4a7-c7d7-4d0d-b7ae-8497cce94874")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD9")
 					(unit 1)
@@ -6449,14 +7116,18 @@
 		(lib_id "Device:D")
 		(at 48.26 116.84 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a065c60-f0cc-4f53-821f-66f6f990eeeb")
 		(property "Reference" "LD12"
 			(at 50.8 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,6 +7137,8 @@
 		)
 		(property "Value" "D"
 			(at 50.8 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,47 +7148,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 48.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 48.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 48.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 48.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 48.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6525,7 +7208,7 @@
 			(uuid "090b660a-db54-4095-8361-d0cb52d9603d")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD12")
 					(unit 1)
@@ -6538,14 +7221,18 @@
 		(at 200.66 96.52 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0785068-5a4e-4b47-ae76-eeec6746beab")
 		(property "Reference" "RD9"
 			(at 198.12 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,6 +7242,8 @@
 		)
 		(property "Value" "D"
 			(at 198.12 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,47 +7253,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6614,7 +7313,7 @@
 			(uuid "6aa4c21b-8796-4059-b5ee-042f26ee6e94")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD9")
 					(unit 1)
@@ -6626,13 +7325,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 254 22.86 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1e62e4c-efa4-43d1-85c0-a94b2d2943ae")
 		(property "Reference" "TP3"
 			(at 259.08 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,6 +7345,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 259.08 22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,36 +7356,42 @@
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 254 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 254 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 254 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "d54ef71a-4533-40fc-aa14-250dc801979d")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "TP3")
 					(unit 1)
@@ -6692,13 +7403,17 @@
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 224.79 22.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1ee4945-9c67-4998-b1b3-a227ebe94a5a")
 		(property "Reference" "J2"
 			(at 225.044 17.272 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,6 +7422,8 @@
 		)
 		(property "Value" "Conn_01x02_Pin"
 			(at 225.044 19.812 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,29 +7432,35 @@
 		)
 		(property "Footprint" "Connector_JST:JST_ACH_BM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical"
 			(at 224.79 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 224.79 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 224.79 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6747,7 +7470,7 @@
 			(uuid "3b54467f-52dc-403d-85d4-1a0417a89d5e")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "J2")
 					(unit 1)
@@ -6759,14 +7482,18 @@
 		(lib_id "Device:D")
 		(at 60.96 96.52 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a46f3ba9-df6b-4b5a-99c5-87909d4e77fd")
 		(property "Reference" "LD8"
 			(at 63.5 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,6 +7503,8 @@
 		)
 		(property "Value" "D"
 			(at 63.5 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,47 +7514,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6835,7 +7574,7 @@
 			(uuid "faceb535-e926-4470-b6cf-c3742dcd66b5")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD8")
 					(unit 1)
@@ -6848,13 +7587,17 @@
 		(at 165.1 110.49 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a561661a-b56d-46f1-96bf-05809442fe22")
 		(property "Reference" "RCH11"
 			(at 161.036 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,37 +7606,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 161.036 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 165.1 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 165.1 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 165.1 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6903,7 +7654,7 @@
 			(uuid "8ddd55fb-0f3f-43b6-b5ca-07fa388629f4")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH11")
 					(unit 1)
@@ -6916,13 +7667,17 @@
 		(at 217.17 110.49 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7633af8-8664-4535-b672-190b464bf813")
 		(property "Reference" "RCH15"
 			(at 213.106 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,37 +7686,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 213.106 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 217.17 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 217.17 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 217.17 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6971,7 +7734,7 @@
 			(uuid "4006fced-8956-4d66-86a8-6d132f1fecfa")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH15")
 					(unit 1)
@@ -6984,13 +7747,17 @@
 		(at 203.2 110.49 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9fb9275-32e0-4905-8113-86c73cabdb05")
 		(property "Reference" "RCH14"
 			(at 199.136 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,37 +7766,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 199.136 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 203.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7039,7 +7814,7 @@
 			(uuid "b23d619e-6a2c-4d08-a3f2-aec37af1c231")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH14")
 					(unit 1)
@@ -7051,13 +7826,17 @@
 		(lib_id "PCM_marbastlib-promicroish:Seeeduino_Xiao_nRF52840")
 		(at 44.45 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa65b1d8-97e3-457f-a10a-d9362e551eb0")
 		(property "Reference" "LU1"
 			(at 30.48 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,6 +7846,8 @@
 		)
 		(property "Value" "Xiao nRF52840"
 			(at 30.48 51.562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,29 +7857,35 @@
 		)
 		(property "Footprint" "Custom:xiao-ble-smd-cutout"
 			(at 44.45 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 31.75 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Symbol for a Seeeduino Xiao nRF52840"
 			(at 44.704 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "10"
@@ -7168,7 +7955,7 @@
 			(uuid "9925e2d1-62ce-4563-bcde-b24b44d5b33f")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LU1")
 					(unit 1)
@@ -7181,14 +7968,18 @@
 		(at 175.26 96.52 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ada318f3-0adc-4848-a2d9-5cb29b28c390")
 		(property "Reference" "RD7"
 			(at 172.72 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,6 +7989,8 @@
 		)
 		(property "Value" "D"
 			(at 172.72 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,47 +8000,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 175.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 175.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 175.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 175.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 175.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7257,7 +8060,7 @@
 			(uuid "579a682c-890d-434b-a98e-1b93a740d8a1")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD7")
 					(unit 1)
@@ -7270,14 +8073,18 @@
 		(at 162.56 96.52 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae7e5221-28e8-4e30-af5b-525f2b61eaf1")
 		(property "Reference" "RD6"
 			(at 160.02 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7287,6 +8094,8 @@
 		)
 		(property "Value" "D"
 			(at 160.02 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,47 +8105,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 162.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 162.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 162.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 162.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 162.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7346,7 +8165,7 @@
 			(uuid "8c739035-ef0a-4fe8-ae7c-0a29a99e9777")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD6")
 					(unit 1)
@@ -7358,14 +8177,18 @@
 		(lib_id "Device:D")
 		(at 48.26 76.2 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afa8d299-45de-4b46-85a0-08b9886f1545")
 		(property "Reference" "LD2"
 			(at 50.8 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7375,6 +8198,8 @@
 		)
 		(property "Value" "D"
 			(at 50.8 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7384,47 +8209,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7434,7 +8269,7 @@
 			(uuid "46394748-75a6-4a40-b7ec-3d281cd97c1b")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD2")
 					(unit 1)
@@ -7446,13 +8281,17 @@
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 88.9 22.86 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1597d8d-02d9-4fc2-9c67-6ae1af5e3922")
 		(property "Reference" "J1"
 			(at 89.154 17.272 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,6 +8300,8 @@
 		)
 		(property "Value" "Conn_01x02_Pin"
 			(at 89.154 19.812 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,29 +8310,35 @@
 		)
 		(property "Footprint" "Connector_JST:JST_ACH_BM02B-ACHSS-GAN-ETF_1x02-1MP_P1.20mm_Vertical"
 			(at 88.9 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.9 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 88.9 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7501,7 +8348,7 @@
 			(uuid "f34b13f1-fce7-4c20-9fbd-e5fbcca490d2")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "J1")
 					(unit 1)
@@ -7514,13 +8361,17 @@
 		(at 177.8 110.49 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1b91f3f-675d-4a2e-83a7-339f9b6ad502")
 		(property "Reference" "RCH12"
 			(at 173.736 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,37 +8380,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 173.736 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 177.8 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 177.8 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 177.8 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7569,7 +8428,7 @@
 			(uuid "ca9b5385-4bfa-43a0-9394-9dd1f8c88396")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH12")
 					(unit 1)
@@ -7582,13 +8441,17 @@
 		(at 217.17 90.17 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6e7291a-22bf-4a85-9c53-849e6a39b580")
 		(property "Reference" "RCH10"
 			(at 213.106 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,37 +8460,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 213.106 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 217.17 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 217.17 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 217.17 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7637,7 +8508,7 @@
 			(uuid "88b05ce0-ca42-4eb3-b203-bce5b76275f8")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH10")
 					(unit 1)
@@ -7650,14 +8521,18 @@
 		(at 175.26 116.84 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba0e8996-b96d-4b86-b08e-28a4e3f08785")
 		(property "Reference" "RD12"
 			(at 172.72 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,6 +8542,8 @@
 		)
 		(property "Value" "D"
 			(at 172.72 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,47 +8553,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 175.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 175.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 175.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 175.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 175.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7726,7 +8613,7 @@
 			(uuid "44c905ad-7c43-46b1-a7d2-ffb3e16ca814")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD12")
 					(unit 1)
@@ -7739,14 +8626,18 @@
 		(at 214.63 76.2 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baae1a88-82ff-4c0f-878c-f0fb9de56812")
 		(property "Reference" "RD5"
 			(at 212.09 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7756,6 +8647,8 @@
 		)
 		(property "Value" "D"
 			(at 212.09 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7765,47 +8658,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 214.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 214.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 214.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 214.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7815,7 +8718,7 @@
 			(uuid "9888c017-ec0c-46f9-ac8b-9987bb8a1473")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD5")
 					(unit 1)
@@ -7827,13 +8730,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 83.82 90.17 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfca36b1-6ff4-41fc-aabb-6edabccfcc4c")
 		(property "Reference" "LCH10"
 			(at 87.884 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7842,37 +8749,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 87.884 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 83.82 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 83.82 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7882,7 +8797,7 @@
 			(uuid "65a93b32-c334-4707-a012-e3f2fea6b57b")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH10")
 					(unit 1)
@@ -7895,13 +8810,17 @@
 		(at 203.2 69.85 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccbfdc11-b29d-4dc0-95f1-8aa1df7f0e30")
 		(property "Reference" "RCH4"
 			(at 199.136 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,37 +8829,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 199.136 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 203.2 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 203.2 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 203.2 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7950,7 +8877,7 @@
 			(uuid "5a2e311e-cd16-4588-95a5-d588d80d6468")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH4")
 					(unit 1)
@@ -7963,13 +8890,17 @@
 		(at 175.26 132.08 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d10919c0-a24c-46cf-873d-1c8ba0a9883c")
 		(property "Reference" "RCH17"
 			(at 172.72 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,37 +8909,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 172.72 128.016 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 175.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 175.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 175.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8018,7 +8957,7 @@
 			(uuid "edcddcc3-6959-46aa-b999-3b1972263dcb")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH17")
 					(unit 1)
@@ -8031,14 +8970,18 @@
 		(at 187.96 76.2 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d720bd-bd54-4d93-bc8f-1c36ec344779")
 		(property "Reference" "RD3"
 			(at 185.42 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,6 +8991,8 @@
 		)
 		(property "Value" "D"
 			(at 185.42 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,47 +9002,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 187.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 187.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 187.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 187.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8107,7 +9062,7 @@
 			(uuid "ea95dad2-dbec-49ca-acc1-a13313785d2e")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD3")
 					(unit 1)
@@ -8119,13 +9074,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 83.82 110.49 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d751ac4e-120f-4f9e-b6c2-91a9a8b6aaae")
 		(property "Reference" "LCH15"
 			(at 87.884 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,37 +9093,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 87.884 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 83.82 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 83.82 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8174,7 +9141,7 @@
 			(uuid "bdf6c858-62df-41d1-b2f7-ebcdc48fe5a5")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH15")
 					(unit 1)
@@ -8186,13 +9153,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 254 25.4 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dec051bc-361f-4830-9cd8-a4c635d8fdc4")
 		(property "Reference" "TP4"
 			(at 259.08 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,6 +9173,8 @@
 		)
 		(property "Value" "TestPoint"
 			(at 259.08 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,36 +9184,42 @@
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 254 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 254 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 254 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e7e4fa31-5b91-45f1-9375-b0050e220df9")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "TP4")
 					(unit 1)
@@ -8253,14 +9232,18 @@
 		(at 200.66 116.84 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0b4398f-0015-4822-93d6-f64e133312ec")
 		(property "Reference" "RD14"
 			(at 198.12 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,6 +9253,8 @@
 		)
 		(property "Value" "D"
 			(at 198.12 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,47 +9264,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8329,7 +9324,7 @@
 			(uuid "29cdb20c-aa41-4672-b8de-79dc7a1450b6")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD14")
 					(unit 1)
@@ -8341,14 +9336,18 @@
 		(lib_id "Device:D")
 		(at 90.17 138.43 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1e0fb92-515a-43f0-9d90-f8753edee9b8")
 		(property "Reference" "LD17"
 			(at 92.71 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,6 +9357,8 @@
 		)
 		(property "Value" "D"
 			(at 92.71 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8367,47 +9368,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 90.17 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 90.17 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 90.17 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 90.17 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 90.17 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8417,7 +9428,7 @@
 			(uuid "37d47e0b-5a0b-4eda-975c-eae8a1ef9f3d")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD17")
 					(unit 1)
@@ -8429,14 +9440,18 @@
 		(lib_id "Device:D")
 		(at 60.96 76.2 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4714a68-dccb-4447-9ea8-cf8e7844e312")
 		(property "Reference" "LD3"
 			(at 63.5 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,6 +9461,8 @@
 		)
 		(property "Value" "D"
 			(at 63.5 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,47 +9472,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8505,7 +9532,7 @@
 			(uuid "8e09c589-c85e-4466-ae45-fc5a4027df6a")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD3")
 					(unit 1)
@@ -8517,13 +9544,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 31.75 69.85 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e79dfc50-26ee-4fdc-8eb0-0246931e0f80")
 		(property "Reference" "LCH1"
 			(at 35.814 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,37 +9563,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 35.814 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 31.75 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 31.75 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8572,7 +9611,7 @@
 			(uuid "5f6ea2d3-9096-4a81-8c77-a329141879d5")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH1")
 					(unit 1)
@@ -8585,14 +9624,18 @@
 		(at 200.66 76.2 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebec3545-1933-4c17-81b2-b848cace83de")
 		(property "Reference" "RD4"
 			(at 198.12 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,6 +9645,8 @@
 		)
 		(property "Value" "D"
 			(at 198.12 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,47 +9656,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 200.66 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 200.66 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 200.66 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 200.66 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 200.66 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8661,7 +9716,7 @@
 			(uuid "e859300a-1395-40d7-a591-77ac992ceda8")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD4")
 					(unit 1)
@@ -8673,14 +9728,18 @@
 		(lib_id "Device:D")
 		(at 86.36 76.2 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecbc40ae-1992-4c16-841a-2d8ea0a2f9e2")
 		(property "Reference" "LD5"
 			(at 88.9 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8690,6 +9749,8 @@
 		)
 		(property "Value" "D"
 			(at 88.9 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,47 +9760,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 86.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8749,7 +9820,7 @@
 			(uuid "94a251fa-c11c-4c7b-8437-e4a3c5f32a4c")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LD5")
 					(unit 1)
@@ -8762,14 +9833,18 @@
 		(at 162.56 76.2 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee4d90c5-3f11-4de4-8faa-c214736d1d9f")
 		(property "Reference" "RD1"
 			(at 160.02 74.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,6 +9854,8 @@
 		)
 		(property "Value" "D"
 			(at 160.02 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8788,47 +9865,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 162.56 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 162.56 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 162.56 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 162.56 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 162.56 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8838,7 +9925,7 @@
 			(uuid "deb94444-6cf5-4fcb-87b0-38e76dcbfc2e")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD1")
 					(unit 1)
@@ -8851,14 +9938,18 @@
 		(at 158.75 138.43 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5a77758-c3f9-4219-a347-d72d12b1110b")
 		(property "Reference" "RD16"
 			(at 156.21 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8868,6 +9959,8 @@
 		)
 		(property "Value" "D"
 			(at 156.21 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,47 +9970,57 @@
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 158.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 158.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Diode"
 			(at 158.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
 			(at 158.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 158.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8927,7 +10030,7 @@
 			(uuid "2d9d93ae-6ed5-476c-94be-e58cb7b7aeea")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RD16")
 					(unit 1)
@@ -8939,13 +10042,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 45.72 110.49 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9024244-aa79-4680-ae38-defb2cfb3cfa")
 		(property "Reference" "LCH12"
 			(at 49.784 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,37 +10061,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 49.784 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 45.72 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 45.72 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 45.72 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8994,7 +10109,7 @@
 			(uuid "c4915aaa-fbcc-4c6b-9a37-900da66ef88d")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH12")
 					(unit 1)
@@ -9007,13 +10122,17 @@
 		(at 217.17 69.85 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9362d2f-f097-4853-95eb-cd126938f237")
 		(property "Reference" "RCH5"
 			(at 213.106 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9022,37 +10141,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 213.106 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 217.17 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 217.17 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 217.17 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9062,7 +10189,7 @@
 			(uuid "7dc7334b-1369-4fd7-8a19-ece1c342adff")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "RCH5")
 					(unit 1)
@@ -9074,13 +10201,17 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 45.72 90.17 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb9cc038-a999-4b9c-82d6-2142e180ea8a")
 		(property "Reference" "LCH7"
 			(at 49.784 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9089,37 +10220,45 @@
 		)
 		(property "Value" "ChocHS"
 			(at 49.784 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
+		(property "Footprint" "forager:SW_choc_v2_HS_CPG135001S30_1u_nopost"
 			(at 45.72 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 45.72 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
 			(at 45.72 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9129,7 +10268,7 @@
 			(uuid "7356578b-4dd2-4808-814f-c4bd6a35d074")
 		)
 		(instances
-			(project "Forager34"
+			(project "forager-pcb"
 				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
 					(reference "LCH7")
 					(unit 1)
@@ -9142,4 +10281,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
