@@ -125,7 +125,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy 1.27 0)
+						(xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -137,7 +138,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 -2.54)
+						(xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -422,7 +424,8 @@
 			(symbol "D_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.27 1.27)
+						(xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -434,7 +437,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 1.27)
+						(xy 1.27 -1.27)
+						(xy -1.27 0)
+						(xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -446,7 +452,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 0)
+						(xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1050,7 +1057,9 @@
 			(symbol "SW_Push_45deg_0_1"
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+						(xy -2.54 2.54)
+						(xy -1.524 1.524)
+						(xy -1.524 1.524)
 					)
 					(stroke
 						(width 0)
@@ -1073,7 +1082,8 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 2.54) (xy 2.54 -0.508)
+						(xy -0.508 2.54)
+						(xy 2.54 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -1085,7 +1095,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 1.016) (xy 2.032 2.032)
+						(xy 1.016 1.016)
+						(xy 2.032 2.032)
 					)
 					(stroke
 						(width 0)
@@ -1108,7 +1119,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 1.524 -1.524)
+						(xy 2.54 -2.54)
+						(xy 2.54 -2.54)
+						(xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1147,6 +1161,197 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254)
+						(xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1522,9 +1727,18 @@
 		(at 49.53 16.51)
 		(uuid "fa305efd-0c31-4f7e-8f1c-ed2f03318300")
 	)
+	(no_connect
+		(at 106.68 38.1)
+		(uuid "fcb20a2d-a665-4317-9d17-8e79dee3f0c5")
+	)
+	(no_connect
+		(at 242.57 43.18)
+		(uuid "dcde936f-cb60-4ede-81eb-c10a8d36d1aa")
+	)
 	(wire
 		(pts
-			(xy 214.63 100.33) (xy 228.6 100.33)
+			(xy 214.63 100.33)
+			(xy 228.6 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1532,19 +1746,10 @@
 		)
 		(uuid "02b9052f-c104-4bac-a885-be82de84d36c")
 	)
-	(bus
-		(pts
-			(xy 147.32 12.7) (xy 147.32 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06f2ffbf-b6b7-478a-8c55-abf3113d2e05")
-	)
 	(wire
 		(pts
-			(xy 73.66 100.33) (xy 86.36 100.33)
+			(xy 73.66 100.33)
+			(xy 86.36 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1554,7 +1759,8 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 120.65) (xy 200.66 120.65)
+			(xy 187.96 120.65)
+			(xy 200.66 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1564,7 +1770,8 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 120.65) (xy 187.96 120.65)
+			(xy 175.26 120.65)
+			(xy 187.96 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1574,7 +1781,8 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 67.31) (xy 193.04 87.63)
+			(xy 193.04 67.31)
+			(xy 193.04 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1584,7 +1792,8 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 67.31) (xy 219.71 87.63)
+			(xy 219.71 67.31)
+			(xy 219.71 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1594,7 +1803,8 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 120.65) (xy 60.96 120.65)
+			(xy 48.26 120.65)
+			(xy 60.96 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1604,7 +1814,8 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 22.86) (xy 116.84 22.86)
+			(xy 113.03 22.86)
+			(xy 116.84 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1614,7 +1825,8 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 26.67) (xy 163.83 26.67)
+			(xy 156.21 26.67)
+			(xy 163.83 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1624,7 +1836,8 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 22.86) (xy 232.41 22.86)
+			(xy 229.87 22.86)
+			(xy 232.41 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1634,7 +1847,8 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 87.63) (xy 81.28 107.95)
+			(xy 81.28 87.63)
+			(xy 81.28 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1644,7 +1858,8 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 59.69) (xy 219.71 67.31)
+			(xy 219.71 59.69)
+			(xy 219.71 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1654,7 +1869,8 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 22.86) (xy 96.52 22.86)
+			(xy 93.98 22.86)
+			(xy 96.52 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1664,7 +1880,8 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 87.63) (xy 180.34 107.95)
+			(xy 180.34 87.63)
+			(xy 180.34 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1674,7 +1891,8 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 142.24) (xy 172.72 142.24)
+			(xy 158.75 142.24)
+			(xy 172.72 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1684,7 +1902,8 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 29.21) (xy 27.94 29.21)
+			(xy 20.32 29.21)
+			(xy 27.94 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1694,7 +1913,8 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 25.4) (xy 96.52 25.4)
+			(xy 93.98 25.4)
+			(xy 96.52 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1704,7 +1924,8 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 120.65) (xy 73.66 120.65)
+			(xy 60.96 120.65)
+			(xy 73.66 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1714,7 +1935,8 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 59.69) (xy 29.21 67.31)
+			(xy 29.21 59.69)
+			(xy 29.21 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1724,7 +1946,8 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 67.31) (xy 29.21 87.63)
+			(xy 29.21 67.31)
+			(xy 29.21 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1734,7 +1957,8 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 67.31) (xy 43.18 87.63)
+			(xy 43.18 67.31)
+			(xy 43.18 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1744,7 +1968,8 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 107.95) (xy 167.64 129.54)
+			(xy 167.64 107.95)
+			(xy 167.64 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1754,7 +1979,8 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 59.69) (xy 43.18 67.31)
+			(xy 43.18 59.69)
+			(xy 43.18 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1764,7 +1990,8 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 80.01) (xy 73.66 80.01)
+			(xy 60.96 80.01)
+			(xy 73.66 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1774,7 +2001,8 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 31.75) (xy 69.85 31.75)
+			(xy 60.96 31.75)
+			(xy 69.85 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1784,7 +2012,8 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 87.63) (xy 29.21 107.95)
+			(xy 29.21 87.63)
+			(xy 29.21 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1794,7 +2023,8 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 29.21) (xy 205.74 29.21)
+			(xy 196.85 29.21)
+			(xy 205.74 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1804,7 +2034,8 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 25.4) (xy 116.84 25.4)
+			(xy 113.03 25.4)
+			(xy 116.84 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1814,7 +2045,8 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 120.65) (xy 48.26 120.65)
+			(xy 34.29 120.65)
+			(xy 48.26 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1824,7 +2056,8 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 100.33) (xy 200.66 100.33)
+			(xy 187.96 100.33)
+			(xy 200.66 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1834,7 +2067,8 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 80.01) (xy 175.26 80.01)
+			(xy 162.56 80.01)
+			(xy 175.26 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1844,7 +2078,8 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 120.65) (xy 34.29 120.65)
+			(xy 20.32 120.65)
+			(xy 34.29 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1854,7 +2089,8 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 80.01) (xy 228.6 80.01)
+			(xy 214.63 80.01)
+			(xy 228.6 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1864,7 +2100,8 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 87.63) (xy 68.58 107.95)
+			(xy 68.58 87.63)
+			(xy 68.58 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1874,7 +2111,8 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 100.33) (xy 34.29 100.33)
+			(xy 20.32 100.33)
+			(xy 34.29 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1884,7 +2122,8 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 24.13) (xy 62.23 24.13)
+			(xy 60.96 24.13)
+			(xy 62.23 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1894,7 +2133,8 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 120.65) (xy 86.36 120.65)
+			(xy 73.66 120.65)
+			(xy 86.36 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1904,7 +2144,8 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 67.31) (xy 167.64 87.63)
+			(xy 167.64 67.31)
+			(xy 167.64 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1914,7 +2155,8 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 87.63) (xy 219.71 107.95)
+			(xy 219.71 87.63)
+			(xy 219.71 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1924,7 +2166,8 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 67.31) (xy 180.34 87.63)
+			(xy 180.34 67.31)
+			(xy 180.34 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1934,7 +2177,8 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 59.69) (xy 180.34 67.31)
+			(xy 180.34 59.69)
+			(xy 180.34 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1944,7 +2188,8 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 67.31) (xy 68.58 87.63)
+			(xy 68.58 67.31)
+			(xy 68.58 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1954,7 +2199,8 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 36.83) (xy 205.74 36.83)
+			(xy 196.85 36.83)
+			(xy 205.74 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1964,7 +2210,8 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 41.91) (xy 163.83 41.91)
+			(xy 158.75 41.91)
+			(xy 163.83 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1974,7 +2221,8 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 100.33) (xy 187.96 100.33)
+			(xy 175.26 100.33)
+			(xy 187.96 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1984,7 +2232,8 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 24.13) (xy 198.12 24.13)
+			(xy 196.85 24.13)
+			(xy 198.12 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1994,7 +2243,8 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 67.31) (xy 205.74 87.63)
+			(xy 205.74 67.31)
+			(xy 205.74 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2004,7 +2254,8 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 22.86) (xy 254 22.86)
+			(xy 250.19 22.86)
+			(xy 254 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2014,7 +2265,8 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 129.54) (xy 177.8 129.54)
+			(xy 180.34 129.54)
+			(xy 177.8 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2024,7 +2276,8 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 25.4) (xy 232.41 25.4)
+			(xy 229.87 25.4)
+			(xy 232.41 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2034,7 +2287,8 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 80.01) (xy 214.63 80.01)
+			(xy 200.66 80.01)
+			(xy 214.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2044,7 +2298,8 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 87.63) (xy 43.18 107.95)
+			(xy 43.18 87.63)
+			(xy 43.18 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2054,7 +2309,8 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 129.54) (xy 163.83 129.54)
+			(xy 167.64 129.54)
+			(xy 163.83 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2064,7 +2320,8 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 87.63) (xy 167.64 107.95)
+			(xy 167.64 87.63)
+			(xy 167.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2074,7 +2331,8 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 41.91) (xy 27.94 41.91)
+			(xy 22.86 41.91)
+			(xy 27.94 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2084,7 +2342,8 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 107.95) (xy 180.34 129.54)
+			(xy 180.34 107.95)
+			(xy 180.34 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2094,7 +2353,8 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 44.45) (xy 163.83 44.45)
+			(xy 158.75 44.45)
+			(xy 163.83 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2104,7 +2364,8 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 26.67) (xy 27.94 26.67)
+			(xy 20.32 26.67)
+			(xy 27.94 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2114,7 +2375,8 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 87.63) (xy 193.04 107.95)
+			(xy 193.04 87.63)
+			(xy 193.04 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2124,7 +2386,8 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 31.75) (xy 163.83 31.75)
+			(xy 156.21 31.75)
+			(xy 163.83 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2134,7 +2397,8 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 59.69) (xy 193.04 67.31)
+			(xy 193.04 59.69)
+			(xy 193.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2144,7 +2408,8 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 107.95) (xy 81.28 129.54)
+			(xy 81.28 107.95)
+			(xy 81.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2154,7 +2419,8 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 29.21) (xy 163.83 29.21)
+			(xy 156.21 29.21)
+			(xy 163.83 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2164,7 +2430,8 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 25.4) (xy 254 25.4)
+			(xy 250.19 25.4)
+			(xy 254 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2174,7 +2441,8 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 142.24) (xy 90.17 142.24)
+			(xy 76.2 142.24)
+			(xy 90.17 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2184,7 +2452,8 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 175.26 100.33)
+			(xy 162.56 100.33)
+			(xy 175.26 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2194,7 +2463,8 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 31.75) (xy 205.74 31.75)
+			(xy 196.85 31.75)
+			(xy 205.74 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2204,7 +2474,8 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 67.31) (xy 81.28 87.63)
+			(xy 81.28 67.31)
+			(xy 81.28 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2214,7 +2485,8 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 87.63) (xy 55.88 107.95)
+			(xy 55.88 87.63)
+			(xy 55.88 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2224,7 +2496,8 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 120.65) (xy 228.6 120.65)
+			(xy 214.63 120.65)
+			(xy 228.6 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2234,7 +2507,8 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 80.01) (xy 86.36 80.01)
+			(xy 73.66 80.01)
+			(xy 86.36 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2244,7 +2518,8 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 80.01) (xy 60.96 80.01)
+			(xy 48.26 80.01)
+			(xy 60.96 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2254,7 +2529,8 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 31.75) (xy 27.94 31.75)
+			(xy 20.32 31.75)
+			(xy 27.94 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2264,7 +2540,8 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 142.24) (xy 228.6 142.24)
+			(xy 172.72 142.24)
+			(xy 228.6 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2274,7 +2551,8 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 36.83) (xy 27.94 36.83)
+			(xy 20.32 36.83)
+			(xy 27.94 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2284,7 +2562,8 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 142.24) (xy 76.2 142.24)
+			(xy 20.32 142.24)
+			(xy 76.2 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2294,7 +2573,8 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 44.45) (xy 27.94 44.45)
+			(xy 22.86 44.45)
+			(xy 27.94 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2304,7 +2584,8 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 80.01) (xy 200.66 80.01)
+			(xy 187.96 80.01)
+			(xy 200.66 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2314,7 +2595,8 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 59.69) (xy 167.64 67.31)
+			(xy 167.64 59.69)
+			(xy 167.64 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2324,7 +2606,8 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 21.59) (xy 27.94 21.59)
+			(xy 20.32 21.59)
+			(xy 27.94 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2334,7 +2617,8 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 34.29) (xy 69.85 34.29)
+			(xy 60.96 34.29)
+			(xy 69.85 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2344,7 +2628,8 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 120.65) (xy 214.63 120.65)
+			(xy 200.66 120.65)
+			(xy 214.63 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2354,7 +2639,8 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 36.83) (xy 69.85 36.83)
+			(xy 60.96 36.83)
+			(xy 69.85 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2364,7 +2650,8 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 59.69) (xy 68.58 67.31)
+			(xy 68.58 59.69)
+			(xy 68.58 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2374,7 +2661,8 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 80.01) (xy 187.96 80.01)
+			(xy 175.26 80.01)
+			(xy 187.96 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2384,7 +2672,8 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 80.01) (xy 34.29 80.01)
+			(xy 20.32 80.01)
+			(xy 34.29 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2394,7 +2683,8 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 59.69) (xy 205.74 67.31)
+			(xy 205.74 59.69)
+			(xy 205.74 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2404,7 +2694,8 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 59.69) (xy 81.28 67.31)
+			(xy 81.28 59.69)
+			(xy 81.28 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2414,7 +2705,8 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 21.59) (xy 163.83 21.59)
+			(xy 156.21 21.59)
+			(xy 163.83 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2424,7 +2716,8 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 100.33) (xy 60.96 100.33)
+			(xy 48.26 100.33)
+			(xy 60.96 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2434,7 +2727,8 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 24.13) (xy 27.94 24.13)
+			(xy 20.32 24.13)
+			(xy 27.94 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +2738,8 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 80.01) (xy 48.26 80.01)
+			(xy 34.29 80.01)
+			(xy 48.26 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2454,7 +2749,8 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 100.33) (xy 214.63 100.33)
+			(xy 200.66 100.33)
+			(xy 214.63 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2464,7 +2760,8 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 34.29) (xy 205.74 34.29)
+			(xy 196.85 34.29)
+			(xy 205.74 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2474,7 +2771,8 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 120.65) (xy 175.26 120.65)
+			(xy 162.56 120.65)
+			(xy 175.26 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2484,7 +2782,8 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 107.95) (xy 68.58 129.54)
+			(xy 68.58 107.95)
+			(xy 68.58 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2494,7 +2793,8 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 100.33) (xy 73.66 100.33)
+			(xy 60.96 100.33)
+			(xy 73.66 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2504,7 +2804,8 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 67.31) (xy 55.88 87.63)
+			(xy 55.88 67.31)
+			(xy 55.88 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2514,7 +2815,8 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 59.69) (xy 55.88 67.31)
+			(xy 55.88 59.69)
+			(xy 55.88 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2524,7 +2826,8 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 129.54) (xy 71.12 129.54)
+			(xy 68.58 129.54)
+			(xy 71.12 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2534,7 +2837,8 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 129.54) (xy 85.09 129.54)
+			(xy 81.28 129.54)
+			(xy 85.09 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2544,7 +2848,8 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 87.63) (xy 205.74 107.95)
+			(xy 205.74 87.63)
+			(xy 205.74 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2554,7 +2859,8 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 24.13) (xy 163.83 24.13)
+			(xy 156.21 24.13)
+			(xy 163.83 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2564,13 +2870,42 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 100.33) (xy 48.26 100.33)
+			(xy 34.29 100.33)
+			(xy 48.26 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fbaac580-53dc-4a75-bd3a-f1af7b7a1b31")
+	)
+	(wire
+		(pts
+			(xy 96.52 40.64)
+			(xy 93.98 40.64)
+		)
+		(uuid "b52c8699-6d9b-461f-bd6d-57b3ede55523")
+	)
+	(wire
+		(pts
+			(xy 232.41 40.64)
+			(xy 229.87 40.64)
+		)
+		(uuid "f9c197e3-13b9-4dc9-8de3-0e57aa739c8a")
+	)
+	(wire
+		(pts
+			(xy 106.68 43.18)
+			(xy 109.22 43.18)
+		)
+		(uuid "5a1a1f48-fbde-4b7a-b9ef-b51b1cbb8f99")
+	)
+	(wire
+		(pts
+			(xy 242.57 38.1)
+			(xy 245.11 38.1)
+		)
+		(uuid "480c21d4-9437-479b-93cf-252345e9834a")
 	)
 	(label "LROW0"
 		(at 20.32 36.83 0)
@@ -2935,7 +3270,6 @@
 	(global_label "LGND"
 		(shape input)
 		(at 22.86 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2959,7 +3293,6 @@
 	(global_label "RBAT"
 		(shape input)
 		(at 250.19 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2983,7 +3316,6 @@
 	(global_label "LGND"
 		(shape input)
 		(at 113.03 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3007,7 +3339,6 @@
 	(global_label "RGND"
 		(shape input)
 		(at 232.41 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3031,7 +3362,6 @@
 	(global_label "LGND"
 		(shape input)
 		(at 96.52 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3055,7 +3385,6 @@
 	(global_label "LBAT"
 		(shape input)
 		(at 113.03 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3079,7 +3408,6 @@
 	(global_label "LGND"
 		(shape input)
 		(at 62.23 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3100,34 +3428,9 @@
 			)
 		)
 	)
-	(global_label "LBAT"
-		(shape input)
-		(at 22.86 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85de0fa6-0c64-4f4a-b382-8e375506ba67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.5205 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "RGND"
 		(shape input)
 		(at 198.12 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3151,7 +3454,6 @@
 	(global_label "RGND"
 		(shape input)
 		(at 158.75 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3172,34 +3474,9 @@
 			)
 		)
 	)
-	(global_label "RBAT"
-		(shape input)
-		(at 158.75 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a88a4ac2-b3bb-4c83-b3fa-214b2255d680")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4105 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "RGND"
 		(shape input)
 		(at 250.19 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3223,7 +3500,6 @@
 	(global_label "LBAT"
 		(shape input)
 		(at 96.52 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3247,7 +3523,6 @@
 	(global_label "RBAT"
 		(shape input)
 		(at 232.41 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3268,17 +3543,81 @@
 			)
 		)
 	)
+	(global_label "LBAT_SW"
+		(shape input)
+		(at 22.86 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcd47124-c5b1-450a-b45a-bec44aadfeae")
+	)
+	(global_label "RBAT_SW"
+		(shape input)
+		(at 158.75 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c770d05-6ce9-4588-a373-5f729d21cd98")
+	)
+	(global_label "LBAT_SW"
+		(shape input)
+		(at 93.98 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c66e9094-2056-4ec7-adf1-1cdc94a3dd05")
+	)
+	(global_label "RBAT_SW"
+		(shape input)
+		(at 229.87 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "451a0b8d-bb0a-49b3-bd7a-42764bc62913")
+	)
+	(global_label "LBAT"
+		(shape input)
+		(at 109.22 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "959431b6-dc6e-4cfc-984b-52ab7c782d9b")
+	)
+	(global_label "RBAT"
+		(shape input)
+		(at 245.11 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cfa1fee-0a85-4c92-9b23-3e0236bba984")
+	)
 	(symbol
 		(lib_id "Device:D")
 		(at 34.29 116.84 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "00e3d12f-d86f-4b16-9d92-51a22670d1f2")
 		(property "Reference" "LD11"
 			(at 36.83 115.5699 90)
@@ -3357,6 +3696,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "223a0f2a-0f8e-44ac-a9a3-f65e4a1feb42")
 		)
@@ -3377,13 +3718,11 @@
 		(at 187.96 96.52 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "022f2f02-4882-4a1f-973e-c8eb3410721c")
 		(property "Reference" "RD8"
 			(at 185.42 95.2499 90)
@@ -3462,6 +3801,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "cf6f4780-9431-49af-a3c3-804dd206c203")
 		)
@@ -3481,11 +3822,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 31.75 90.17 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "02834f9c-9447-4d4e-93bc-4b71f400c68c")
 		(property "Reference" "LCH6"
@@ -3541,6 +3880,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "46acd362-095d-4168-a83a-6d072cf0dd6c")
 		)
@@ -3560,11 +3901,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 71.12 110.49 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "0438c1d8-ea9d-4f75-b0d8-789e50db7140")
 		(property "Reference" "LCH14"
@@ -3620,6 +3959,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "8be0e6e7-50d9-412a-80b3-455b4aec67be")
 		)
@@ -3639,13 +3980,11 @@
 		(lib_id "Device:D")
 		(at 73.66 76.2 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "0eac1c7f-37a9-4777-947e-808440a9a94f")
 		(property "Reference" "LD4"
 			(at 76.2 74.9299 90)
@@ -3724,6 +4063,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "334720e7-dc42-42be-b9fd-20d5552524d2")
 		)
@@ -3744,13 +4085,11 @@
 		(at 172.72 138.43 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "16b8a081-65bc-4a76-90e3-3609670553a9")
 		(property "Reference" "RD17"
 			(at 170.18 137.1599 90)
@@ -3829,6 +4168,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "33ff048d-a379-41bc-a657-1bc8f9d23ea7")
 		)
@@ -3848,11 +4189,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 58.42 90.17 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "16ee31e2-6389-42c8-a07e-4972c894ea0e")
 		(property "Reference" "LCH8"
@@ -3908,6 +4247,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "aff5fb61-cf77-487b-b7d5-860c2268fd77")
 		)
@@ -3927,13 +4268,11 @@
 		(lib_id "Device:D")
 		(at 73.66 116.84 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "17534b41-0feb-4916-88f9-9473184ee4dc")
 		(property "Reference" "LD14"
 			(at 76.2 115.5699 90)
@@ -4012,6 +4351,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "0b5de86d-e2a2-4071-95cf-18bc429661e7")
 		)
@@ -4031,13 +4372,11 @@
 		(lib_id "Device:D")
 		(at 86.36 116.84 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "1768bbdf-5d1f-4316-8ea2-430a6ccf8395")
 		(property "Reference" "LD15"
 			(at 88.9 115.5699 90)
@@ -4116,6 +4455,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "5ef56f97-72c1-4e0d-b781-6996767e8d68")
 		)
@@ -4135,11 +4476,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 116.84 22.86 270)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a726835-d12b-4fb5-bd7a-73e4b8766bd5")
 		(property "Reference" "TP1"
@@ -4197,6 +4536,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "fd81a34a-f614-4a3b-af2b-bce361a56ef7")
 		)
@@ -4214,11 +4555,9 @@
 		(at 165.1 90.17 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b7ed641-e015-4c5f-baf2-f8f12cae3983")
 		(property "Reference" "RCH6"
@@ -4274,6 +4613,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "100b4d34-841b-4ead-8268-2c1f1efefc3f")
 		)
@@ -4294,11 +4635,9 @@
 		(at 190.5 110.49 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fc49c3e-ab1b-4fe3-98e0-16b8002cf0ad")
 		(property "Reference" "RCH13"
@@ -4354,6 +4693,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "400e30b4-4b4f-4a26-afef-452ae1b524bd")
 		)
@@ -4374,11 +4715,9 @@
 		(at 165.1 69.85 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "400f20a4-7fac-4e05-b8d1-57f3c28af32f")
 		(property "Reference" "RCH1"
@@ -4434,6 +4773,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "e59c94c9-7476-421a-96b2-27c0c903bc0a")
 		)
@@ -4454,13 +4795,11 @@
 		(at 214.63 96.52 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "41c2d28c-16ed-45c3-8537-88bf2505e60a")
 		(property "Reference" "RD10"
 			(at 212.09 95.2499 90)
@@ -4539,6 +4878,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "bd22079d-a8f8-44ae-8dfa-47ea7c1a949e")
 		)
@@ -4558,13 +4899,11 @@
 		(lib_id "Device:D")
 		(at 60.96 116.84 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "43f13eaf-e60e-4fcc-8213-323559010b3b")
 		(property "Reference" "LD13"
 			(at 63.5 115.5699 90)
@@ -4643,6 +4982,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "54c235e8-a10c-44fd-abd7-6456482fec40")
 		)
@@ -4662,11 +5003,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 58.42 110.49 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c77f89b-c40e-4028-b7cf-adfcb12e8aa1")
 		(property "Reference" "LCH13"
@@ -4722,6 +5061,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "05b0e3e5-4612-4bdc-9e4f-91abc569aa17")
 		)
@@ -4741,13 +5082,11 @@
 		(lib_id "Device:D")
 		(at 34.29 96.52 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "5166270f-3f46-4966-a8ea-53c34b1fb891")
 		(property "Reference" "LD6"
 			(at 36.83 95.2499 90)
@@ -4826,6 +5165,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "42b4baf5-118b-442c-b470-0391c9893661")
 		)
@@ -4846,13 +5187,11 @@
 		(at 187.96 116.84 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "52c11970-4ca0-442a-97db-e6225c9a11af")
 		(property "Reference" "RD13"
 			(at 185.42 115.5699 90)
@@ -4931,6 +5270,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "c63ce22f-15d6-4de3-8765-04efd46de94d")
 		)
@@ -4950,13 +5291,11 @@
 		(lib_id "Device:D")
 		(at 34.29 76.2 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "5451b97b-57bf-49fd-8905-4c757beb2a3e")
 		(property "Reference" "LD1"
 			(at 36.83 74.9299 90)
@@ -5035,6 +5374,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "f723f963-eed5-40b1-8515-856dec504f9d")
 		)
@@ -5055,11 +5396,9 @@
 		(at 177.8 69.85 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bb49ed7-3896-47ff-8a63-14d6512dd891")
 		(property "Reference" "RCH2"
@@ -5115,6 +5454,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "abe113a8-8ea0-45eb-a6fb-6a37b7afa8ee")
 		)
@@ -5135,11 +5476,9 @@
 		(at 161.29 132.08 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cc80b19-4dc4-4777-9768-4bf15dbbc02d")
 		(property "Reference" "RCH16"
@@ -5195,6 +5534,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "25ea8881-c3d2-410b-aaca-158822f2b193")
 		)
@@ -5215,11 +5556,9 @@
 		(at 190.5 69.85 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "6448bdca-0eb9-4f27-aa34-b021be693b93")
 		(property "Reference" "RCH3"
@@ -5275,6 +5614,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "3319eacd-7b7c-4def-82b4-9c584cf55940")
 		)
@@ -5294,11 +5635,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 71.12 90.17 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "667f11b5-327c-46b9-8f30-9460d21f7ee5")
 		(property "Reference" "LCH9"
@@ -5354,6 +5693,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "ff1f6653-25d3-408f-9cca-e391fac73979")
 		)
@@ -5374,13 +5715,11 @@
 		(at 175.26 76.2 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "68803394-95a4-4096-995a-c104ae247a69")
 		(property "Reference" "RD2"
 			(at 172.72 74.9299 90)
@@ -5459,6 +5798,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "b821e017-66b3-4f9a-98c7-950f9d3dbeb9")
 		)
@@ -5478,11 +5819,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 58.42 69.85 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b0837f3-072c-456a-89e8-d22c0c270b0a")
 		(property "Reference" "LCH3"
@@ -5538,6 +5877,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "a5114cca-7f0d-4707-b406-397ea91bf2f7")
 		)
@@ -5558,13 +5899,11 @@
 		(at 214.63 116.84 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "6b5e1336-e3a7-4fc7-9311-3c760c6baaaa")
 		(property "Reference" "RD15"
 			(at 212.09 115.5699 90)
@@ -5643,6 +5982,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "8edfa676-955a-45ed-a023-5885bc65b8a6")
 		)
@@ -5662,13 +6003,11 @@
 		(lib_id "Device:D")
 		(at 48.26 96.52 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "6e054d2b-ec3b-4a7c-bbe2-3ba784b47f34")
 		(property "Reference" "LD7"
 			(at 50.8 95.2499 90)
@@ -5747,6 +6086,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "03fca2a0-b5e0-48b6-9af0-e945a8d31a89")
 		)
@@ -5766,11 +6107,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 45.72 69.85 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e853a88-77f4-48e6-ae86-ee894e13519d")
 		(property "Reference" "LCH2"
@@ -5826,6 +6165,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "328e9137-bb63-4a8a-a118-9097a913c854")
 		)
@@ -5845,13 +6186,11 @@
 		(lib_id "Device:D")
 		(at 86.36 96.52 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "6f949570-b7e7-4273-aa50-8b64524c9e8b")
 		(property "Reference" "LD10"
 			(at 88.9 95.2499 90)
@@ -5930,6 +6269,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "ba9236e8-2fe8-4866-91da-52757c07717e")
 		)
@@ -5949,11 +6290,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 87.63 132.08 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a937ee8-f44b-4b79-ab4d-50f378e5b745")
 		(property "Reference" "LCH17"
@@ -6009,6 +6348,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "5f8bfa34-21f6-431e-9541-731271fc9648")
 		)
@@ -6028,11 +6369,9 @@
 		(lib_id "PCM_marbastlib-promicroish:Seeeduino_Xiao_nRF52840")
 		(at 180.34 35.56 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "7af04ac1-2d26-478c-9b61-d1a240da43e8")
 		(property "Reference" "RU1"
@@ -6090,6 +6429,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "10"
 			(uuid "1a083632-b591-42d3-b240-94520abaa3c1")
 		)
@@ -6169,11 +6510,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 71.12 69.85 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f0b0e98-ddd3-4ff0-852e-a923acaaaba9")
 		(property "Reference" "LCH4"
@@ -6229,6 +6568,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "027f969b-cbdc-4c5a-9bc9-2327498ba20a")
 		)
@@ -6249,11 +6590,9 @@
 		(at 177.8 90.17 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "83e6f9cf-8d18-4286-94f1-6401334a184a")
 		(property "Reference" "RCH7"
@@ -6309,6 +6648,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "f96a233b-3014-4a13-86d0-0b06ab709258")
 		)
@@ -6329,11 +6670,9 @@
 		(at 190.5 90.17 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "84fa8bb6-2b1f-499c-b7ee-64ce975c461b")
 		(property "Reference" "RCH8"
@@ -6389,6 +6728,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "1cd2a464-b0c6-4ff5-aafd-c3511d03772c")
 		)
@@ -6409,13 +6750,11 @@
 		(at 162.56 116.84 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "8502eead-7c9a-4a6b-9e05-6becae47eaf6")
 		(property "Reference" "RD11"
 			(at 160.02 115.5699 90)
@@ -6494,6 +6833,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "3beaf2ce-2816-4b1e-b2aa-6d90860a31da")
 		)
@@ -6514,11 +6855,9 @@
 		(at 203.2 90.17 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "86e2a282-152d-4720-b46d-511814940990")
 		(property "Reference" "RCH9"
@@ -6574,6 +6913,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "f984fa5a-a374-444f-8df5-36987f024532")
 		)
@@ -6593,11 +6934,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 116.84 25.4 270)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c4c0317-e0e4-4ebb-a475-38c388084cd6")
 		(property "Reference" "TP2"
@@ -6655,6 +6994,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "4ef95700-c542-4369-878b-642ddd70c904")
 		)
@@ -6671,11 +7012,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 73.66 132.08 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d287098-20fd-4b98-b5dd-ba254805c44a")
 		(property "Reference" "LCH16"
@@ -6731,6 +7070,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "c9b41993-957d-48aa-8f49-fa042da06e1d")
 		)
@@ -6750,11 +7091,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 31.75 110.49 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "92bd2975-317f-4ab0-ba92-065a3037dcd7")
 		(property "Reference" "LCH11"
@@ -6810,6 +7149,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "e0172e1b-7c0d-46e0-8c5f-85d77a9c4a19")
 		)
@@ -6829,13 +7170,11 @@
 		(lib_id "Device:D")
 		(at 76.2 138.43 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "9559a061-199c-47e9-88ec-e01209387984")
 		(property "Reference" "LD16"
 			(at 78.74 137.1599 90)
@@ -6914,6 +7253,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "d6a572c6-eece-4913-9849-822b95e131e8")
 		)
@@ -6933,11 +7274,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 83.82 69.85 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "998f4256-e543-4aa9-bf7f-fde3087e0f3f")
 		(property "Reference" "LCH5"
@@ -6993,6 +7332,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "4fcfb4c2-7914-497b-97fa-2867601094e1")
 		)
@@ -7012,13 +7353,11 @@
 		(lib_id "Device:D")
 		(at 73.66 96.52 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "99b62630-6ab5-4bfc-a7a0-c4c2f3683c21")
 		(property "Reference" "LD9"
 			(at 76.2 95.2499 90)
@@ -7097,6 +7436,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "ad83ea32-8791-477b-a79e-bf5991f0082f")
 		)
@@ -7116,13 +7457,11 @@
 		(lib_id "Device:D")
 		(at 48.26 116.84 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "9a065c60-f0cc-4f53-821f-66f6f990eeeb")
 		(property "Reference" "LD12"
 			(at 50.8 115.5699 90)
@@ -7201,6 +7540,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "5ca38dd2-9f5a-4d16-8d49-bf700b2d0910")
 		)
@@ -7221,13 +7562,11 @@
 		(at 200.66 96.52 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "a0785068-5a4e-4b47-ae76-eeec6746beab")
 		(property "Reference" "RD9"
 			(at 198.12 95.2499 90)
@@ -7306,6 +7645,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "46b50033-c7e6-41e6-8e9f-42a6ee8f68cf")
 		)
@@ -7325,11 +7666,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 254 22.86 270)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1e62e4c-efa4-43d1-85c0-a94b2d2943ae")
 		(property "Reference" "TP3"
@@ -7387,6 +7726,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "d54ef71a-4533-40fc-aa14-250dc801979d")
 		)
@@ -7403,11 +7744,9 @@
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 224.79 22.86 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1ee4945-9c67-4998-b1b3-a227ebe94a5a")
 		(property "Reference" "J2"
@@ -7463,6 +7802,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "0fc2230d-4ec5-4ca0-a0e9-308e973a513c")
 		)
@@ -7482,13 +7823,11 @@
 		(lib_id "Device:D")
 		(at 60.96 96.52 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "a46f3ba9-df6b-4b5a-99c5-87909d4e77fd")
 		(property "Reference" "LD8"
 			(at 63.5 95.2499 90)
@@ -7567,6 +7906,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "bab93ae2-8a9e-4fa0-bfe8-d03906ed8816")
 		)
@@ -7587,11 +7928,9 @@
 		(at 165.1 110.49 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "a561661a-b56d-46f1-96bf-05809442fe22")
 		(property "Reference" "RCH11"
@@ -7647,6 +7986,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "840299f1-aa29-48c9-b4b8-6abf1fc50aa3")
 		)
@@ -7667,11 +8008,9 @@
 		(at 217.17 110.49 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7633af8-8664-4535-b672-190b464bf813")
 		(property "Reference" "RCH15"
@@ -7727,6 +8066,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "7f060767-4ffe-4c3b-8c7d-abaa3a1393cc")
 		)
@@ -7747,11 +8088,9 @@
 		(at 203.2 110.49 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9fb9275-32e0-4905-8113-86c73cabdb05")
 		(property "Reference" "RCH14"
@@ -7807,6 +8146,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "b24ab851-27c8-454b-900b-2a745349f7ed")
 		)
@@ -7826,11 +8167,9 @@
 		(lib_id "PCM_marbastlib-promicroish:Seeeduino_Xiao_nRF52840")
 		(at 44.45 35.56 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa65b1d8-97e3-457f-a10a-d9362e551eb0")
 		(property "Reference" "LU1"
@@ -7888,6 +8227,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "10"
 			(uuid "f38a8a08-716b-4b93-8505-80afa013a0e6")
 		)
@@ -7968,13 +8309,11 @@
 		(at 175.26 96.52 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "ada318f3-0adc-4848-a2d9-5cb29b28c390")
 		(property "Reference" "RD7"
 			(at 172.72 95.2499 90)
@@ -8053,6 +8392,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "8adec789-0357-4de1-b229-80f9a46a3015")
 		)
@@ -8073,13 +8414,11 @@
 		(at 162.56 96.52 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "ae7e5221-28e8-4e30-af5b-525f2b61eaf1")
 		(property "Reference" "RD6"
 			(at 160.02 95.2499 90)
@@ -8158,6 +8497,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "f1c9e531-8ed8-4037-a953-c12b80e1079b")
 		)
@@ -8177,13 +8518,11 @@
 		(lib_id "Device:D")
 		(at 48.26 76.2 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "afa8d299-45de-4b46-85a0-08b9886f1545")
 		(property "Reference" "LD2"
 			(at 50.8 74.9299 90)
@@ -8262,6 +8601,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "c72d4c88-a6e6-4f33-910e-3fd9927f4108")
 		)
@@ -8281,11 +8622,9 @@
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 88.9 22.86 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1597d8d-02d9-4fc2-9c67-6ae1af5e3922")
 		(property "Reference" "J1"
@@ -8341,6 +8680,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "2"
 			(uuid "58f56ef6-7d0e-4634-addc-ed204377bdc2")
 		)
@@ -8361,11 +8702,9 @@
 		(at 177.8 110.49 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1b91f3f-675d-4a2e-83a7-339f9b6ad502")
 		(property "Reference" "RCH12"
@@ -8421,6 +8760,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "208ebc2a-5915-44b7-8dc7-d639f5257da1")
 		)
@@ -8441,11 +8782,9 @@
 		(at 217.17 90.17 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6e7291a-22bf-4a85-9c53-849e6a39b580")
 		(property "Reference" "RCH10"
@@ -8501,6 +8840,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "73565c9a-d255-4166-8e72-25ed3c7f04c5")
 		)
@@ -8521,13 +8862,11 @@
 		(at 175.26 116.84 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "ba0e8996-b96d-4b86-b08e-28a4e3f08785")
 		(property "Reference" "RD12"
 			(at 172.72 115.5699 90)
@@ -8606,6 +8945,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "a5594977-55d9-4bd1-bea9-69a4fbf54bcd")
 		)
@@ -8626,13 +8967,11 @@
 		(at 214.63 76.2 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "baae1a88-82ff-4c0f-878c-f0fb9de56812")
 		(property "Reference" "RD5"
 			(at 212.09 74.9299 90)
@@ -8711,6 +9050,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "8df359d1-25bf-4b84-a1ab-6e10c8da32cd")
 		)
@@ -8730,11 +9071,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 83.82 90.17 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfca36b1-6ff4-41fc-aabb-6edabccfcc4c")
 		(property "Reference" "LCH10"
@@ -8790,6 +9129,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "7ff4768c-b9d3-42cd-b934-5d4d04a6dc2d")
 		)
@@ -8810,11 +9151,9 @@
 		(at 203.2 69.85 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccbfdc11-b29d-4dc0-95f1-8aa1df7f0e30")
 		(property "Reference" "RCH4"
@@ -8870,6 +9209,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "54bb5580-1ce6-473d-a683-713593f78c27")
 		)
@@ -8890,11 +9231,9 @@
 		(at 175.26 132.08 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "d10919c0-a24c-46cf-873d-1c8ba0a9883c")
 		(property "Reference" "RCH17"
@@ -8950,6 +9289,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "698db31f-df2c-4249-81e4-37473dc693c7")
 		)
@@ -8970,13 +9311,11 @@
 		(at 187.96 76.2 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "d6d720bd-bd54-4d93-bc8f-1c36ec344779")
 		(property "Reference" "RD3"
 			(at 185.42 74.9299 90)
@@ -9055,6 +9394,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "ed895a18-d945-4c0c-af2e-f0d6513b002a")
 		)
@@ -9074,11 +9415,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 83.82 110.49 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "d751ac4e-120f-4f9e-b6c2-91a9a8b6aaae")
 		(property "Reference" "LCH15"
@@ -9134,6 +9473,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "9d52aa4b-582e-4f3d-bc51-3b501736990c")
 		)
@@ -9153,11 +9494,9 @@
 		(lib_id "Connector:TestPoint")
 		(at 254 25.4 270)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "dec051bc-361f-4830-9cd8-a4c635d8fdc4")
 		(property "Reference" "TP4"
@@ -9215,6 +9554,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "e7e4fa31-5b91-45f1-9375-b0050e220df9")
 		)
@@ -9232,13 +9573,11 @@
 		(at 200.66 116.84 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "e0b4398f-0015-4822-93d6-f64e133312ec")
 		(property "Reference" "RD14"
 			(at 198.12 115.5699 90)
@@ -9317,6 +9656,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "0d6ddbd9-43d0-4b59-97e6-dd17451ef07b")
 		)
@@ -9336,13 +9677,11 @@
 		(lib_id "Device:D")
 		(at 90.17 138.43 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "e1e0fb92-515a-43f0-9d90-f8753edee9b8")
 		(property "Reference" "LD17"
 			(at 92.71 137.1599 90)
@@ -9421,6 +9760,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "7bc5c8dc-a011-4ddf-bf15-701dda5d6025")
 		)
@@ -9440,13 +9781,11 @@
 		(lib_id "Device:D")
 		(at 60.96 76.2 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "e4714a68-dccb-4447-9ea8-cf8e7844e312")
 		(property "Reference" "LD3"
 			(at 63.5 74.9299 90)
@@ -9525,6 +9864,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "f1c6bd7e-b323-42d8-bb13-237beebd018d")
 		)
@@ -9544,11 +9885,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 31.75 69.85 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "e79dfc50-26ee-4fdc-8eb0-0246931e0f80")
 		(property "Reference" "LCH1"
@@ -9604,6 +9943,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "811e2468-8f3c-4fd2-889f-c97dc72dc7f7")
 		)
@@ -9624,13 +9965,11 @@
 		(at 200.66 76.2 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "ebec3545-1933-4c17-81b2-b848cace83de")
 		(property "Reference" "RD4"
 			(at 198.12 74.9299 90)
@@ -9709,6 +10048,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "568e6a05-5c3a-4494-bbc0-5cbb222940d9")
 		)
@@ -9728,13 +10069,11 @@
 		(lib_id "Device:D")
 		(at 86.36 76.2 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "ecbc40ae-1992-4c16-841a-2d8ea0a2f9e2")
 		(property "Reference" "LD5"
 			(at 88.9 74.9299 90)
@@ -9813,6 +10152,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "afa463d7-3b8f-4eaa-aeaa-8a5ac180f7b4")
 		)
@@ -9833,13 +10174,11 @@
 		(at 162.56 76.2 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "ee4d90c5-3f11-4de4-8faa-c214736d1d9f")
 		(property "Reference" "RD1"
 			(at 160.02 74.9299 90)
@@ -9918,6 +10257,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "63ecfc14-c49c-4a3e-9e15-8398c91fd63b")
 		)
@@ -9938,13 +10279,11 @@
 		(at 158.75 138.43 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(fields_autoplaced)
 		(uuid "f5a77758-c3f9-4219-a347-d72d12b1110b")
 		(property "Reference" "RD16"
 			(at 156.21 137.1599 90)
@@ -10023,6 +10362,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "d4be1b83-4287-435d-8e96-024f636a8577")
 		)
@@ -10042,11 +10383,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 45.72 110.49 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9024244-aa79-4680-ae38-defb2cfb3cfa")
 		(property "Reference" "LCH12"
@@ -10102,6 +10441,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "3467bddc-7251-4cc9-b32e-090417b912f9")
 		)
@@ -10122,11 +10463,9 @@
 		(at 217.17 69.85 0)
 		(mirror y)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9362d2f-f097-4853-95eb-cd126938f237")
 		(property "Reference" "RCH5"
@@ -10182,6 +10521,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "4f0f2ea7-2031-4cc3-970b-05124aa3ccf5")
 		)
@@ -10201,11 +10542,9 @@
 		(lib_id "Switch:SW_Push_45deg")
 		(at 45.72 90.17 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb9cc038-a999-4b9c-82d6-2142e180ea8a")
 		(property "Reference" "LCH7"
@@ -10261,6 +10600,8 @@
 				)
 			)
 		)
+		(body_style 1)
+		(in_pos_files yes)
 		(pin "1"
 			(uuid "cfc854bb-35bb-48df-9d4c-71b3073cc760")
 		)
@@ -10276,10 +10617,141 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 101.6 40.64 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c1dbdb8-769f-46b9-b948-6828816d1687")
+		(property "Reference" "LSW1"
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SSSS811101"
+			(at 101.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "forager:SW_SPDT_Alps_SSSS811101"
+			(at 101.6 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 101.6 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "forager-pcb"
+				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
+					(reference "LSW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 237.49 40.64 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b020b30-c914-4904-9e95-33c845850b4e")
+		(property "Reference" "RSW1"
+			(at 237.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SSSS811101"
+			(at 237.49 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "forager:SW_SPDT_Alps_SSSS811101"
+			(at 237.49 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 237.49 40.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "forager-pcb"
+				(path "/25b48b1d-6487-48b5-9c33-d941f15e9f3f"
+					(reference "RSW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(bus
+		(pts
+			(xy 147.32 12.7)
+			(xy 147.32 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f2ffbf-b6b7-478a-8c55-abf3113d2e05")
+	)
+	(embedded_fonts no)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
