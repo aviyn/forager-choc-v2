@@ -6,6 +6,16 @@ Forager is a Voyager-inspired 34-key low-profile wireless split keyboard powered
 
 > why does the large Voyager not simply eat the small Forager?
 
+## Choc v2 / 19 mm fork
+
+This fork of [carrefinho/forager](https://github.com/carrefinho/forager) reworks the PCB for **Choc v2 hotswap switches at 19 × 19 mm spacing** (each half is about 8 mm wider and 6 mm taller) and adds, on each half:
+
+- a power switch (Alps SSSS811101)
+- an optional reset button (Panasonic EVQ-PUC02K)
+- three SK6812MINI-E status LEDs behind a P-FET power switch
+
+The schematic and board are done. The case, the LED firmware, the Gerbers and the build guide have not been updated yet and still describe the original design. See [the full list of changes](/docs/changes.md).
+
 ## Design
 
 - Condensed [ZSA Voyager](https://www.zsa.io/voyager) layout without outer pinkie column and number row
