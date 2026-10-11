@@ -41,6 +41,8 @@ All outer edges have 2 mm fillets, matched between the case and the stand.
 
 ![Close-up of the three status LED light pipes in the top plate](/renders/forager_left_leds_closeup.png)
 
+**Status LEDs:** each half has three SK6812MINI-E RGB LEDs at a 4.5 mm pitch, reverse-mounted on the PCB's top inner edge so they shine up through cutouts in the board. Three clear 1.75 mm light pipes, flush with the top plate, carry the light to its surface. A P-FET turns the LEDs' supply off when they aren't in use, so they draw no power. They are driven from the XIAO, which can set each LED to its own colour. In the render the pipes are coloured blue, green and red only to show where the light comes out. LED firmware support isn't written yet.
+
 ![Forager left half, exploded view](/renders/forager_left_exploded_keycaps.png)
 
 The STEP and STL files are in assembly coordinates, so turn the top plate and the stand over in the slicer before printing. The right half is a mirror of the left and is not exported yet.
