@@ -45,7 +45,7 @@ All outer edges have 2 mm fillets, matched between the case and the stand.
 
 ![Forager left half, exploded view](/renders/forager_left_exploded_keycaps.png)
 
-The STEP and STL files are in assembly coordinates, so turn the top plate and the stand over in the slicer before printing. The right half is a mirror of the left and is not exported yet.
+The STEP and STL files are in assembly coordinates, so turn the top plate and the stand over in the slicer before printing. **Right half:** only left-half files are provided. The case is designed to be mirrorable, so mirror each part across X in your slicer to print the right half. The XIAO reset pinhole on the other side of the USB lines up with the right-hand XIAO once mirrored.
 
 ## Design
 
