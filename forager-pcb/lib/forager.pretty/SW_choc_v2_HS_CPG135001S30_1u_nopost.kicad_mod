@@ -74,12 +74,8 @@
     (offset (xyz -5 -3.75 1.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180)))
-  (model "${KIPRJMOD}/lib/3dmodels/SW_Kailh_Choc_V1.wrl"
+  (model "${KIPRJMOD}/lib/3dmodels/SW_Kailh_Choc_V2_wizard.wrl"
     (offset (xyz 0 0 -1.6))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 180 0 0)))
-  (model "${KIPRJMOD}/lib/3dmodels/keycap_18x18_MX.wrl"
-    (offset (xyz 0 0 -7.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0)))
 )
