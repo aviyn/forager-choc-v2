@@ -14,7 +14,7 @@ This fork of [carrefinho/forager](https://github.com/carrefinho/forager) reworks
 - an optional reset button (Panasonic EVQ-PUC02K)
 - three SK6812MINI-E status LEDs behind a P-FET power switch
 
-The schematic and board are done. A new case for the left half is designed (see below). The LED firmware, the Gerbers and the build guide have not been updated yet and still describe the original design. See [the full list of changes](/docs/changes.md).
+The schematic and board are done, and the Gerbers in [`forager-pcb/GERBER-forager-pcb.zip`](/forager-pcb/GERBER-forager-pcb.zip) are generated from the current board. A new case for the left half is designed (see below). The LED firmware and the build guide have not been updated yet and still describe the original design. See [the full list of changes](/docs/changes.md).
 
 ### Case (left half)
 

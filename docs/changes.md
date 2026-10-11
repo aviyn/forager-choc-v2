@@ -2,7 +2,7 @@
 
 This fork modifies the [original Forager](https://github.com/carrefinho/forager) PCB. It moves the board from **Choc v1 hotswap at 18 × 17 mm** to **Choc v2 hotswap at 19 × 19 mm**, and adds a power switch, an optional reset button and status LEDs to each half.
 
-> **Status:** the schematic and PCB are complete and routed (DRC: 0 errors, 0 unconnected items; ERC: no new errors compared with the original). The [build guide](build-guide.md), the [case](../case/) and the Gerbers still describe the **original** design. See [Not done yet](#not-done-yet).
+> **Status:** the schematic and PCB are complete and routed (DRC: 0 errors, 0 unconnected items; ERC: no new errors compared with the original). The Gerbers are generated from the current board. The [build guide](build-guide.md) still describes the **original** design, and the new case covers only the left half so far. See [Not done yet](#not-done-yet).
 
 ## Summary
 
@@ -90,7 +90,7 @@ Multiply by two for a full keyboard. The switches themselves are not in the buil
 
 - **Case:** the new left-half case (base, top plate, stand and power slider cap) is in [`exports/case/`](../exports/case/), with renders in [`renders/`](../renders/). The right half still needs to be mirrored and exported, and the XIAO LED light channel is not modelled. The files in [`case/`](../case/) are the original 18 × 17 mm Choc v1 case.
 - **Firmware:** the key matrix is unchanged. The LED support still has to be written (a ZMK module with a WS2812 driver on P0.05 via SPI, and the active-low enable GPIO).
-- **Fab outputs:** `forager-pcb/GERBER-forager-pcb.zip` is **stale** and still the original board. Regenerate Gerbers, drill, BOM and position files, and check that the LED cutouts appear in Edge.Cuts and that the plotted silkscreen font (Geist) is right.
+- **Fab outputs:** `forager-pcb/GERBER-forager-pcb.zip` (Gerbers and drill files) is generated from the current board, and the LED cutouts are in Edge.Cuts. BOM and position files for assembly have not been generated yet. Check the plotted silkscreen font (Geist) in a Gerber viewer before ordering.
 - **Build guide:** still describes the original build, including the case steps and the onboard-LED light guides.
 
 ## Known issues and review items
