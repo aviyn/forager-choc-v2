@@ -35,7 +35,11 @@ The new case was designed in Fusion for the 19 × 19 mm board. Printable STEP an
 
 All outer edges have 2 mm fillets, matched between the case and the stand.
 
+![Forager left half, assembled without keycaps](/renders/forager_left_assembled_no_keycaps.png)
+
 ![Forager left half, side view of the outer edge](/renders/forager_left_side_edge.png)
+
+![Close-up of the three status LED light pipes in the top plate](/renders/forager_left_leds_closeup.png)
 
 ![Forager left half, exploded view](/renders/forager_left_exploded_keycaps.png)
 
