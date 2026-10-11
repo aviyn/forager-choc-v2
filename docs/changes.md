@@ -88,7 +88,7 @@ Multiply by two for a full keyboard. The switches themselves are not in the buil
 
 ## Not done yet
 
-- **Case:** the files in [`case/`](../case/) are still for 18 × 17 mm and Choc v1. They need the 19 × 19 outline, Choc v2 plate cutouts (MX-style 14 mm; rethink the puller grooves), moved standoffs, outer-wall slots for the power slider and reset button, six light-pipe holes, and moved XIAO and USB-C openings.
+- **Case:** the new left-half case (base, top plate, stand and power slider cap) is in [`exports/case/`](../exports/case/), with renders in [`renders/`](../renders/). The right half still needs to be mirrored and exported, and the XIAO LED light channel is not modelled. The files in [`case/`](../case/) are the original 18 × 17 mm Choc v1 case.
 - **Firmware:** the key matrix is unchanged. The LED support still has to be written (a ZMK module with a WS2812 driver on P0.05 via SPI, and the active-low enable GPIO).
 - **Fab outputs:** `forager-pcb/GERBER-forager-pcb.zip` is **stale** and still the original board. Regenerate Gerbers, drill, BOM and position files, and check that the LED cutouts appear in Edge.Cuts and that the plotted silkscreen font (Geist) is right.
 - **Build guide:** still describes the original build, including the case steps and the onboard-LED light guides.

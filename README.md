@@ -14,7 +14,32 @@ This fork of [carrefinho/forager](https://github.com/carrefinho/forager) reworks
 - an optional reset button (Panasonic EVQ-PUC02K)
 - three SK6812MINI-E status LEDs behind a P-FET power switch
 
-The schematic and board are done. The case, the LED firmware, the Gerbers and the build guide have not been updated yet and still describe the original design. See [the full list of changes](/docs/changes.md).
+The schematic and board are done. A new case for the left half is designed (see below). The LED firmware, the Gerbers and the build guide have not been updated yet and still describe the original design. See [the full list of changes](/docs/changes.md).
+
+### Case (left half)
+
+![Forager left half, assembled with keycaps](/renders/forager_left_assembled_keycaps.png)
+
+The new case was designed in Fusion for the 19 × 19 mm board. Printable STEP and STL files are in [`exports/case/`](/exports/case/). It has four parts:
+
+- **Top plate:** Choc v2 cutouts, shallower switch-puller grooves, four countersunk M2 screw holes, and three 1.75 mm holes for the LED light pipes.
+- **Base:** a 1 mm deeper shell (bottom at Z −7.6) that fits a **601230** LiPo between two filleted floor ribs. It also has:
+  - five bevelled screw posts, with countersunk M2 holes from below;
+  - a 13 × 6.5 mm USB-C pocket;
+  - a wall opening and a larger insertion relief for the power slider;
+  - XIAO reset pinholes on both sides of the USB, so the same design mirrors to the right half;
+  - flush magnet pockets for the stand;
+  - four recesses for 10 × 3 mm bump-on feet.
+- **Stand:** a 12° magnetic tenting stand that follows the case outline. Its top has pockets that clear the case's feet, and its bottom has two foot recesses. With the stand attached, all six feet are coplanar, so the board sits flat without rocking.
+- **Power slider cap:** a small cap for the power switch.
+
+All outer edges have 2 mm fillets, matched between the case and the stand.
+
+![Forager left half, side view of the outer edge](/renders/forager_left_side_edge.png)
+
+![Forager left half, exploded view](/renders/forager_left_exploded_keycaps.png)
+
+The STEP and STL files are in assembly coordinates, so turn the top plate and the stand over in the slicer before printing. The right half is a mirror of the left and is not exported yet.
 
 ## Design
 
