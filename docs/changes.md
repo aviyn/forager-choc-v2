@@ -95,9 +95,12 @@ The new case is designed in Fusion for the 19 × 19 mm board. STEP and STL files
 
 Multiply by two for a full keyboard. The switches themselves are not in the build guide's parts list, but they now need to be **Choc v2 switches** (for example Kailh Black Cloud) with **MX-compatible keycaps**. The hotswap socket (CPG135001S30) is unchanged.
 
+## Firmware
+
+The key matrix is unchanged. The ZMK config with LED support is in [forager-choc-v2-zmk](https://github.com/aviyn/forager-choc-v2-zmk) (WS2812 driver on P0.05 via SPI, plus the active-low enable GPIO).
+
 ## Not done yet
 
-- **Firmware:** the key matrix is unchanged. The LED support still has to be written (a ZMK module with a WS2812 driver on P0.05 via SPI, and the active-low enable GPIO).
 - **Fab outputs:** `forager-pcb/GERBER-forager-pcb.zip` (Gerbers and drill files) is generated from the current board, and the LED cutouts are in Edge.Cuts. BOM and position files for assembly have not been generated yet. Check the plotted silkscreen font (Geist) in a Gerber viewer before ordering.
 - **Build guide:** still describes the original build, including the case steps and the onboard-LED light guides.
 

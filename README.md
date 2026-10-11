@@ -11,7 +11,7 @@ A fork of [Forager](https://github.com/carrefinho/forager) by [carrefinho](https
 > [!WARNING]
 > This fork has not been built yet. The first PCBs have just been ordered, so nothing here is tested on real hardware. Build it at your own risk.
 
-The schematic and board are done, and the Gerbers in [`forager-pcb/GERBER-forager-pcb.zip`](/forager-pcb/GERBER-forager-pcb.zip) are generated from the current board. A new case for the left half is designed (see below). The LED firmware and the build guide have not been updated yet and still describe the original design. See [the full list of changes](/docs/changes.md).
+The schematic and board are done, and the Gerbers in [`forager-pcb/GERBER-forager-pcb.zip`](/forager-pcb/GERBER-forager-pcb.zip) are generated from the current board. A new case for the left half is designed (see below). The firmware, including the status LEDs, is in [forager-choc-v2-zmk](https://github.com/aviyn/forager-choc-v2-zmk). The build guide has not been updated yet and still describes the original design. See [the full list of changes](/docs/changes.md).
 
 Photos and design notes for the original Choc v1 Forager are in the [original Forager gallery](/docs/original-gallery.md).
 
@@ -38,7 +38,7 @@ All outer edges have 2 mm fillets, matched between the case and the stand.
 
 ![Close-up of the three status LED light pipes in the top plate](/renders/forager_left_leds_closeup.png)
 
-**Status LEDs:** each half has three SK6812MINI-E RGB LEDs at a 4.5 mm pitch, reverse-mounted on the PCB's top inner edge so they shine up through cutouts in the board. Three light pipes carry the light to the top surface. Each is a piece of translucent 1.75 mm 3D-printer filament, cut to the top plate's thickness (about 2.1 mm) and pressed flush into its hole. A P-FET turns the LEDs' supply off when they aren't in use, so they draw no power. They are driven from the XIAO, which can set each LED to its own colour. In the render the pipes are coloured blue, green and red only to show where the light comes out. LED firmware support isn't written yet.
+**Status LEDs:** each half has three SK6812MINI-E RGB LEDs at a 4.5 mm pitch, reverse-mounted on the PCB's top inner edge so they shine up through cutouts in the board. Three light pipes carry the light to the top surface. Each is a piece of translucent 1.75 mm 3D-printer filament, cut to the top plate's thickness (about 2.1 mm) and pressed flush into its hole. A P-FET turns the LEDs' supply off when they aren't in use, so they draw no power. They are driven from the XIAO, which can set each LED to its own colour. In the render the pipes are coloured blue, green and red only to show where the light comes out. The LED behaviour (battery gauge, layer colour, caps lock and connection status) is described in the [forager-choc-v2-zmk](https://github.com/aviyn/forager-choc-v2-zmk) README.
 
 ![Forager left half, exploded view](/renders/forager_left_exploded_keycaps.png)
 
@@ -52,7 +52,7 @@ The STEP and STL files are in assembly coordinates, so turn the top plate and th
 
 ## Firmware
 
-This fork uses the original [Forager ZMK module](https://github.com/carrefinho/forager-zmk-module) by carrefinho. Support for the new status LEDs isn't written yet.
+The ZMK config for this fork is in **[forager-choc-v2-zmk](https://github.com/aviyn/forager-choc-v2-zmk)**. It builds `forager_left` (the central, with ZMK Studio over USB), `forager_right` and `settings_reset` with GitHub Actions, and drives the status LEDs with [zmk-ledstrip-status](https://github.com/aviyn/zmk-ledstrip-status). It started from [forager-zmk-dongle](https://github.com/aviyn/forager-zmk-dongle), without the dongle. The original [Forager ZMK module](https://github.com/carrefinho/forager-zmk-module) by carrefinho is for the original Choc v1 board.
 
 ## Credits
 
