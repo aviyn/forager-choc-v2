@@ -2,7 +2,7 @@
 
 This fork modifies the [original Forager](https://github.com/carrefinho/forager) PCB. It moves the board from **Choc v1 hotswap at 18 × 17 mm** to **Choc v2 hotswap at 19 × 19 mm**, and adds a power switch, an optional reset button and status LEDs to each half.
 
-> **Status:** the schematic and PCB are complete and routed (DRC: 0 errors, 0 unconnected items; ERC: no new errors compared with the original). The Gerbers are generated from the current board. The [build guide](build-guide.md) still describes the **original** design, and the new case is provided for the left half only; the right half is printed by mirroring it in the slicer. See [Not done yet](#not-done-yet).
+> **Status:** the schematic and PCB are complete and routed (DRC: 0 errors, 0 unconnected items; ERC: no new errors compared with the original). The Gerbers are generated from the current board. The [build guide](build-guide.md) still describes the **original** design, and the new case is provided for the left half only; the right half is printed by mirroring it in the slicer (see [Case](#case-left-half)). See [Not done yet](#not-done-yet).
 
 ## Summary
 
@@ -67,9 +67,18 @@ This fork modifies the [original Forager](https://github.com/carrefinho/forager)
 | LED supply | 3V3 (pad 10) | 3V3 (pad 10) |
 
 - **LED order:** the chain runs left to right (+x) on both halves. On the left half LED1 is the outer LED (nearest the XIAO); on the right half LED1 is the inner LED. Firmware has to map the indices accordingly.
-- **Light pipes:** the case needs one 1.75 mm hole centred on each LED, at the six (x, -47.75) positions. Check these against the top-case key openings.
+- **Light pipes:** the top plate has a 1.75 mm hole centred on each LED, at the six (x, -47.75) positions. The light pipes are short pieces cut from translucent 1.75 mm 3D-printer filament (see [Case](#case-left-half)).
 - **Soldering:** four LED ground pads use a via in the pad. Some solder wicks into the open hole, so use a little more solder, or order filled or capped vias.
 - Per-LED 100 nF decoupling capacitors were left out.
+
+## Case (left half)
+
+The new case is designed in Fusion for the 19 × 19 mm board. STEP and STL files for the base, top plate, 12° magnetic stand and power slider cap are in [`exports/case/`](../exports/case/), with renders in [`renders/`](../renders/). The files in [`case/`](../case/) are the original 18 × 17 mm Choc v1 case.
+
+- **Right half:** right-half files are not exported on purpose. The case is mirrorable, so mirror each part across X in the slicer. The base has XIAO reset pinholes on both sides of the USB, so the mirrored base lines up with the right-hand XIAO.
+- **LED light pipes:** cut three pieces of translucent 1.75 mm filament, each about 2.1 mm long (the top plate's thickness), and press them into the holes above the LEDs so they sit flush with the top surface. Clear or natural (undyed) filament lets the most light through.
+- **Print orientation:** the files are in assembly coordinates. Flip the top plate and the stand over in the slicer before printing.
+- The XIAO's onboard LED has no light channel in the new case.
 
 ## Added parts (per half)
 
@@ -88,7 +97,6 @@ Multiply by two for a full keyboard. The switches themselves are not in the buil
 
 ## Not done yet
 
-- **Case:** the new left-half case (base, top plate, stand and power slider cap) is in [`exports/case/`](../exports/case/), with renders in [`renders/`](../renders/). Right-half files are not exported on purpose: the case is mirrorable, so mirror each part across X in the slicer. The XIAO LED light channel is not modelled. The files in [`case/`](../case/) are the original 18 × 17 mm Choc v1 case.
 - **Firmware:** the key matrix is unchanged. The LED support still has to be written (a ZMK module with a WS2812 driver on P0.05 via SPI, and the active-low enable GPIO).
 - **Fab outputs:** `forager-pcb/GERBER-forager-pcb.zip` (Gerbers and drill files) is generated from the current board, and the LED cutouts are in Edge.Cuts. BOM and position files for assembly have not been generated yet. Check the plotted silkscreen font (Geist) in a Gerber viewer before ordering.
 - **Build guide:** still describes the original build, including the case steps and the onboard-LED light guides.
